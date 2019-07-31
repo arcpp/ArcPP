@@ -51,7 +51,7 @@ As the project develops, a more extensive documentation via readthedocs will be 
 If you encounter any problems you can open up issues at GitHub, or contact us directly by email.
 For any contributions, fork us at https://github.com/StSchulze/ArcPP. and open up pull requests.
 
-## Coprights
+## Copyrights
 
 Copyright 2019-today by authors and contributors in alphabetical order
 
@@ -69,6 +69,7 @@ Copyright 2019-today by authors and contributors in alphabetical order
 * Mechthild Pohlschroder
 * Ansgar Poetsch
 * Stefan Schulze
+* Henning Urlaub
 
 ## Contact
 
