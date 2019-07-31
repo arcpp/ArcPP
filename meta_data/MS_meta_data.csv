@@ -1,0 +1,15 @@
+PRIDE ID,LC-Column,LC-Gradient (start conc. ACN; end con. ACN; time),LC Temperature,Instrument,MS1 Resolution,MS1 Scan Range,MS2 Resolution,Fragmentation Type,Fragmentation Energy,Excluded Charges,No of spectra,No of files,Notes
+PXD000202,C18 (20cm),,,LTQ-Orbitrap-Velos ,30000,,,CID,,,548471,38,
+PXD006877,C18 (25cm),2%;30%; 100min,,Q Exactive Plus,70000,350 – 1800,17500,HCD,27 NCE,1; >6,2498860,56,
+PXD007061,C18 ,2%;30%; 161min,55°C,LTQ-Orbitrap-Elite,240000,150-2000,,CID,,1,6847689,118,
+PXD009116,C18 ,1%;40%; 165min,55°C,LTQ-Orbitrap-Elite,240000,150-2000,,CID,,1,1322477,24,
+PXD010824,C18 (15cm),2%;32%; 30min,35°C,Q Exactive Plus,70000,375 – 2000,17500,HCD,27 NCE,1; >5,131989,8,
+PXD011012,C18 (50cm),2%; 24% (80min); 40% (115min),50°C,Q Exactive Plus,70000,375 – 2000,17500,HCD,27 NCE; 30 NCE,1; >6,3446807,62,
+PXD011015,C18 (15cm),2%;32%; 30min,35°C,Q Exactive Plus,70000,375 – 3000,17500,HCD,27 NCE,>4,177431,10,
+PXD011015,C18 (15cm),2%;32%; 30min,35°C,Q Exactive Plus,70000,400 – 2000,17500,IS-CID; HCD,60-90V; 30 NCE,1; >6,295857,18,
+PXD011050,C18 (15cm),2%;32%; 30min (2%;36%; 40min),35°C (50°C),Q Exactive Plus,70000,375 – 2000 (350 – 1600),17500,HCD,27 NCE,1; >5,452855,16,
+PXD011056,C18 (25cm),5%;35%; 90min,50°C,TripleTOF 5600+,35000,350-1250,17500,CID,rolling,1; >4,1063443,32,
+PXD011056,C18 (25cm),5%;35%; 90min,50°C,TripleTOF 5600+,35000,350-1250,SWATH (60 variable size windows),CID,rolling,None,,,
+PXD011218,C18 ,1%;40%; 165min,55°C,LTQ-Orbitrap-Elite,240000,150-2000,,CID,,1,1926117,48,without PXD009116
+PXD012683,C18 ,7;27% ( 90 min); 41% (105min),,Q Exactive HF,60000,300-1500,15000,HCD,28 NCE,1; >8,150306,2,
+PXD013046,C18 ,1%;40%; 165min,55°C,LTQ-Orbitrap-XL/Elite,,300–1600 (XL)/150–2000 (Elite),60000,CID,,1,4291777,96,
