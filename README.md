@@ -37,7 +37,7 @@ It comes with pip, which you can use to install the dependencies::
 
 To start the Dash app, simply execute the script Arcpp_results_dash_app.py in the main folder::
 
-	user@localhost:~/ursgal$ python3.4 install_resources.py
+	python Arcpp_results_dash_app.py
 
 Dash automatically starts a local server and you can view the results opening the following page in you browser:
 http://127.0.0.1:8050/
