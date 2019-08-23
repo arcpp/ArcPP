@@ -17,27 +17,27 @@ Coming soon.
 
 ## Installation
 
-Get the latest version via GitHub:
-    | https://github.com/StSchulze/ArcPP
+Get the latest version via GitHub: https://github.com/StSchulze/ArcPP
 
-as a .zip package:
-   | https://github.com/StSchulze/ArcPP/archive/master.zip
+as a .zip package: https://github.com/StSchulze/ArcPP/archive/master.zip
 
 or via git clone::
-   git clone https://github.com/StSchulze/ArcPP.git
+
+ 	git clone https://github.com/StSchulze/ArcPP.git
 
 For looking at the meta data, database and result files, of course no specific software is required.
 However, if you want to use the Dash app to search for proteins,
 you will need Python (tested for Python 3.5 and higher) with the packages Ursgal, Pandas and Dash.
 Download Python here: https://www.python.org/downloads/
 It comes with pip, which you can use to install the dependencies::
+
 	pip install -r requirements.txt
 
 ## How to use
 
 To start the Dash app, simply execute the script Arcpp_results_dash_app.py in the main folder::
 
-	user@localhost:~/ursgal$ python3.4 install_resources.py
+	python Arcpp_results_dash_app.py
 
 Dash automatically starts a local server and you can view the results opening the following page in you browser:
 http://127.0.0.1:8050/
