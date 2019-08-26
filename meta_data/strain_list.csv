@@ -1,2 +1,4 @@
 Strain,Background,Genotype,Plasmid,Reference,Comments
 H119,DS70,DpHV2; DpyrE2; DtrpA; DleuB,,Allers et al. (2004) Appl. Envir. Microb.,
+H26,DS70,DpyrE2,,Allers et al. (2004) Appl. Envir. Microb.,
+HVLON3,H26,PtnaA-lon-abi,,Cerletti et al. (2015) Envir. Microb.,
