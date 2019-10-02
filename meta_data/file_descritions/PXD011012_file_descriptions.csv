@@ -1,0 +1,63 @@
+Raw file name,Protease,Replicate,iTRAQ 114,iTRAQ 115,iTRAQ 116,iTRAQ 117
+StS_Hvo_iTRAQ_0+7_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,shaking OD0.8,,,shaking OD0.3
+StS_Hvo_iTRAQ_1+2+0_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,biofilm 24h,,planktonic 24h,shaking OD0.3
+StS_Hvo_iTRAQ_1+2_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,biofilm 24h,,planktonic 24h,
+StS_Hvo_iTRAQ_1+3+0_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,planktonic 48h,,planktonic 24h,shaking OD0.3
+StS_Hvo_iTRAQ_1+3+5_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,planktonic 48h,planktonic 72h,planktonic 24h,
+StS_Hvo_iTRAQ_1+3_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,planktonic 48h,,planktonic 24h,
+StS_Hvo_iTRAQ_2+4+0-II_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,biofilm 24h,biofilm 48h,,shaking OD0.3
+StS_Hvo_iTRAQ_2+4+0_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,biofilm 24h,biofilm 48h,,shaking OD0.3
+StS_Hvo_iTRAQ_2+4+6_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,biofilm 24h,biofilm 48h,biofilm 72h,
+StS_Hvo_iTRAQ_2+4_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,biofilm 24h,biofilm 48h,,
+StS_Hvo_iTRAQ_3+5+0_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,planktonic 48h,planktonic 72h,,shaking OD0.3
+StS_Hvo_iTRAQ_4+6_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,,biofilm 48h,biofilm 72h,
+StS_Hvo_iTRAQ_5+6+0_Try_Big12_3h_07102016.raw,Trypsin,replicate 1,,planktonic 72h,biofilm 72h,shaking OD0.3
+StS_Hvo_iTRAQ_0+7_GluC_Big12_3h_09102016.raw,GluC,replicate 1,shaking OD0.8,,,shaking OD0.3
+StS_Hvo_iTRAQ_1+2+0_GluC_Big12_3h_09102016.raw,GluC,replicate 1,biofilm 24h,,planktonic 24h,shaking OD0.3
+StS_Hvo_iTRAQ_1+2_GluC_Big12_3h_09102016.raw,GluC,replicate 1,biofilm 24h,,planktonic 24h,
+StS_Hvo_iTRAQ_1+3+0_GluC_Big12_3h_09102016.raw,GluC,replicate 1,planktonic 48h,,planktonic 24h,shaking OD0.3
+StS_Hvo_iTRAQ_1+3+5_GluC_Big12_3h_09102016.raw,GluC,replicate 1,planktonic 48h,planktonic 72h,planktonic 24h,
+StS_Hvo_iTRAQ_1+3_GluC_Big12_3h_09102016.raw,GluC,replicate 1,planktonic 48h,,planktonic 24h,
+StS_Hvo_iTRAQ_2+4+0_GluC_Big12_3h_09102016.raw,GluC,replicate 1,biofilm 24h,biofilm 48h,,shaking OD0.3
+StS_Hvo_iTRAQ_2+4+0-II_GluC_Big12_3h_09102016.raw,GluC,replicate 1,biofilm 24h,biofilm 48h,,shaking OD0.3
+StS_Hvo_iTRAQ_2+4+6_GluC_Big12_3h_09102016.raw,GluC,replicate 1,biofilm 24h,biofilm 48h,biofilm 72h,
+StS_Hvo_iTRAQ_2+4_GluC_Big12_3h_09102016.raw,GluC,replicate 1,biofilm 24h,biofilm 48h,,
+StS_Hvo_iTRAQ_3+5+0_GluC_Big12_3h_09102016.raw,GluC,replicate 1,planktonic 48h,planktonic 72h,,shaking OD0.3
+StS_Hvo_iTRAQ_4+6_GluC_Big12_3h_09102016.raw,GluC,replicate 1,,biofilm 48h,biofilm 72h,
+StS_Hvo_iTRAQ_5+6+0_GluC_Big12_3h_09102016.raw,GluC,replicate 1,,planktonic 72h,biofilm 72h,shaking OD0.3
+StS_ITRAQ-Try-0_18082017.raw,Trypsin,replicate 2,shaking OD0.3,,,
+StS_ITRAQ-Try-0-7-8_18082017.raw,Trypsin,replicate 2,shaking OD0.3,,shaking OD0.08,shaking OD0.8
+StS_ITRAQ-Try-1-2-0_18082017.raw,Trypsin,replicate 2,shaking OD0.3,biofilm 24h,,planktonic 24h
+StS_ITRAQ-Try-1-3-5-0_18082017.raw,Trypsin,replicate 2,shaking OD0.3,planktonic 48h,planktonic 72h,planktonic 24h
+StS_ITRAQ-Try-1-3-5_18082017.raw,Trypsin,replicate 2,,planktonic 48h,planktonic 72h,planktonic 24h
+StS_ITRAQ-Try-2_18082017.raw,Trypsin,replicate 2,,biofilm 24h,,
+StS_ITRAQ-Try-2-4-6-0_18082017.raw,Trypsin,replicate 2,shaking OD0.3,biofilm 24h,biofilm 48h,biofilm 72h
+StS_ITRAQ-Try-2-4-6_18082017.raw,Trypsin,replicate 2,,biofilm 24h,biofilm 48h,
+StS_ITRAQ-Try-3-4-0_18082017.raw,Trypsin,replicate 2,shaking OD0.3,planktonic 48h,biofilm 48h,
+StS_ITRAQ-Try-5-6-0_18082017.raw,Trypsin,replicate 2,shaking OD0.3,,planktonic 72h,biofilm 72h
+StS_ITRAQ-GluC-1_18082017.raw,GluC,replicate 2,,,,planktonic 24h
+StS_ITRAQ-GluC-0-7-8_18082017.raw,GluC,replicate 2,shaking OD0.3,,shaking OD0.08,shaking OD0.8
+StS_ITRAQ-GluC-1-2-0_18082017.raw,GluC,replicate 2,shaking OD0.3,biofilm 24h,,planktonic 24h
+StS_ITRAQ-GluC-1-3-5-0_18082017.raw,GluC,replicate 2,shaking OD0.3,planktonic 48h,planktonic 72h,planktonic 24h
+StS_ITRAQ-GluC-1-3-5_18082017.raw,GluC,replicate 2,,planktonic 48h,planktonic 72h,planktonic 24h
+StS_ITRAQ-GluC-2-4-6-0_18082017.raw,GluC,replicate 2,shaking OD0.3,biofilm 24h,biofilm 48h,biofilm 72h
+StS_ITRAQ-GluC-2-4-6_18082017.raw,GluC,replicate 2,,biofilm 24h,biofilm 48h,biofilm 72h
+StS_ITRAQ-GluC-3-4-0_18082017.raw,GluC,replicate 2,shaking OD0.3,planktonic 48h,biofilm 48h,
+StS_ITRAQ-GluC-4_18082017.raw,GluC,replicate 2,,,biofilm 48h,
+StS_ITRAQ-GluC-5-6-0_18082017.raw,GluC,replicate 2,shaking OD0.3,,planktonic 72h,biofilm 72h
+StS_ITRAQ-Try-0-7-8_30052017_170622234447.raw,Trypsin,replicate 3,,shaking OD0.3,shaking OD0.8,shaking OD0.08
+StS_ITRAQ-Try-1-2-0_30052017_170623202703.raw,Trypsin,replicate 3,planktonic 24h,shaking OD0.3,biofilm 24h,
+StS_ITRAQ-Try-1-3-5-0_30052017_170624015153.raw,Trypsin,replicate 3,planktonic 24h,shaking OD0.3,planktonic 48h,planktonic 72h
+StS_ITRAQ-Try-1-3-5_30052017_170623030215.raw,Trypsin,replicate 3,planktonic 24h,,planktonic 48h,planktonic 72h
+StS_ITRAQ-Try-2-4-6-0_30052017_170624071647.raw,Trypsin,replicate 3,biofilm 72h,shaking OD0.3,biofilm 24h,biofilm 48h
+StS_ITRAQ-Try-2-4-6_30052017_170623061948.raw,Trypsin,replicate 3,biofilm 72h,,biofilm 24h,biofilm 48h
+StS_ITRAQ-Try-3-4-0_30052017_170623093715.raw,Trypsin,replicate 3,,shaking OD0.3,planktonic 48h,biofilm 48h
+StS_ITRAQ-Try-5-6-0_30052017_170623150211.raw,Trypsin,replicate 3,biofilm 72h,shaking OD0.3,,planktonic 72h
+StS_ITRAQ-GluC-0-7-8_30052017_170625002335.raw,GluC,replicate 3,,shaking OD0.3,shaking OD0.8,shaking OD0.08
+StS_ITRAQ-GluC-1-2-0_30052017_170625101559.raw,GluC,replicate 3,planktonic 24h,shaking OD0.3,biofilm 24h,
+StS_ITRAQ-GluC-1-3-5-0_30052017_170625165053.raw,GluC,replicate 3,planktonic 24h,shaking OD0.3,planktonic 48h,planktonic 72h
+StS_ITRAQ-GluC-1-3-5_30052017_170625034101.raw,GluC,replicate 3,planktonic 24h,,planktonic 48h,planktonic 72h
+StS_ITRAQ-GluC-2-4-6-0_30052017_170625200827.raw,GluC,replicate 3,biofilm 72h,shaking OD0.3,biofilm 24h,biofilm 48h
+StS_ITRAQ-GluC-2-4-6_30052017_170624210606.raw,GluC,replicate 3,biofilm 72h,,biofilm 24h,biofilm 48h
+StS_ITRAQ-GluC-3-4-0_30052017_170625133327.raw,GluC,replicate 3,,shaking OD0.3,planktonic 48h,biofilm 48h
+StS_ITRAQ-GluC-5-6-0_30052017_170625065828.raw,GluC,replicate 3,biofilm 72h,shaking OD0.3,,planktonic 72h

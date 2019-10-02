@@ -1,0 +1,29 @@
+Raw file name,Strain,Replicate,CsCl fraction,Acquisition method
+StS-Pili-delAglB-4-big12-02092015.raw,dAglB,replicate 1,4,TopN HCD
+StS-Pili-delAglB-5-big12-02092015.raw,dAglB,replicate 1,5,TopN HCD
+StS-Pili-delAglB-4-big12-09092015.raw,dAglB,replicate 2,4,TopN HCD
+StS-Pili-delAglB-5-big12-09092015.raw,dAglB,replicate 2,5,TopN HCD
+StS-Pili-delaglB-5-big12-20072015.raw,dAglB,replicate 3,5,TopN HCD
+StS-Pili-wt-4-big12-02092015.raw,WT,replicate 1,4,TopN HCD
+StS-Pili-wt-5-big12-02092015.raw,WT,replicate 1,5,TopN HCD
+StS-Pili-wt-4-big12-09092015.raw,WT,replicate 2,4,TopN HCD
+StS-Pili-wt-5-big12-09092015.raw,WT,replicate 2,5,TopN HCD
+StS-Pili-wt-5-big12-20072015.raw,WT,replicate 3,5,TopN HCD
+StS-Pili-delAglB-4-ISF607090-02092015.raw,dAglB,replicate 1,4,IS-CID (60; 70; 90 V)
+StS-Pili-delAglB-5-ISF607090-02092015.raw,dAglB,replicate 1,5,IS-CID (60; 70; 90 V)
+StS-Pili-delAglB-4-ISF80-02092015.raw,dAglB,replicate 1,4,IS-CID (80 V)
+StS-Pili-delAglB-5-ISF80-02092015.raw,dAglB,replicate 1,5,IS-CID (80 V)
+StS-Pili-delaglB-4-ISF607090-08072015.raw,dAglB,replicate 2,4,IS-CID (60; 70; 90 V)
+StS-Pili-delaglB-4-ISF80-08072015_150713192410.raw,dAglB,replicate 2,4,IS-CID (80 V)
+StS-Pili-delaglB-4-ISF80-08072015.raw,dAglB,replicate 2,4,IS-CID (80 V)
+StS-Pili-delaglB-5-ISF607090-20072015.raw,dAglB,replicate 3,5,IS-CID (60; 70; 90 V)
+StS-Pili-delaglB-5-ISF80-20072015.raw,dAglB,replicate 3,5,IS-CID (80 V)
+StS-Pili-wt-5-ISF80-02092015.raw,WT,replicate 1,4,IS-CID (80 V)
+StS-Pili-wt-4-ISF607090-02092015.raw,WT,replicate 1,5,IS-CID (60; 70; 90 V)
+StS-Pili-wt-5-ISF607090-02092015.raw,WT,replicate 1,4,IS-CID (60; 70; 90 V)
+StS-Pili-wt-4-ISF80-02092015.raw,WT,replicate 1,5,IS-CID (80 V)
+StS-Pili-wt-4-ISF607090-08072015.raw,WT,replicate 2,4,IS-CID (80 V)
+StS-Pili-wt-4-ISF80-08072015_150713203737.raw,WT,replicate 2,4,IS-CID (60; 70; 90 V)
+StS-Pili-wt-4-ISF80-08072015.raw,WT,replicate 2,4,IS-CID (80 V)
+StS-Pili-wt-5-ISF607090-20072015.raw,WT,replicate 3,5,IS-CID (60; 70; 90 V)
+StS-Pili-wt-5-ISF80-20072015.raw,WT,replicate 3,5,IS-CID (80 V)

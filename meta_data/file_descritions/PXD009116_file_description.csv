@@ -1,0 +1,25 @@
+Raw file name,Strain,Growth phase,Cell fraction,Replicate
+WT_L-1C.raw,H26,Exponential,Cytoplasm,replicate 1
+WT_L-1M.raw,H26,Exponential,Membrane,replicate 1
+WT_L-2C.raw,H26,Exponential,Cytoplasm,replicate 2
+WT_L-2M.raw,H26,Exponential,Membrane,replicate 2
+WT_L-3C.raw,H26,Exponential,Cytoplasm,replicate 3
+WT_L-3M.raw,H26,Exponential,Membrane,replicate 3
+WT_S-1C.raw,H26,Stationary,Cytoplasm,replicate 1
+WT_S-1M.raw,H26,Stationary,Membrane,replicate 1
+WT_S-2C.raw,H26,Stationary,Cytoplasm,replicate 2
+WT_S-2M.raw,H26,Stationary,Membrane,replicate 2
+WT_S-3C.raw,H26,Stationary,Cytoplasm,replicate 3
+WT_S-3M.raw,H26,Stationary,Membrane,replicate 3
+WT_EXP1_botttom20.raw,H26,Exponential,Membrane,replicate 4
+WT_EXP1_top20.raw,H26,Exponential,Membrane,replicate 4
+WT_EXP2_botttom20.raw,H26,Exponential,Membrane,replicate 5
+WT_EXP2_top20.raw,H26,Exponential,Membrane,replicate 5
+WT_EXP3_botttom20.raw,H26,Exponential,Membrane,replicate 6
+WT_EXP3_top20.raw,H26,Exponential,Membrane,replicate 6
+WT_ST1_botttom20.raw,H26,Stationary,Membrane,replicate 4
+WT_ST1_top20.raw,H26,Stationary,Membrane,replicate 4
+WT_ST2_botttom20.raw,H26,Stationary,Membrane,replicate 5
+WT_ST2_top20.raw,H26,Stationary,Membrane,replicate 5
+WT_ST3_botttom20.raw,H26,Stationary,Membrane,replicate 6
+WT_ST3_top20.raw,H26,Stationary,Membrane,replicate 6

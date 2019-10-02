@@ -1,0 +1,119 @@
+Raw file name,Strain,Growth phase,Cell fraction,Replicate,Condition,Labels; time after 15N pulse
+1-1_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,-trp,label 15N; 2 hs after 15N pulse
+1-1_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,-trp,label 15N; 2 hs after 15N pulse
+1-2_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,-trp,label 15N; 5 hs after 15N pulse
+1-2_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,-trp,label 15N; 5 hs after 15N pulse
+1-3_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,-trp,label 15N; 8 hs after 15N pulse
+1-3_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,-trp,label 15N; 8 hs after 15N pulse
+1-4_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,-trp,label 15N; 11 hs after 15N pulse
+1-4_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,-trp,label 15N; 11 hs after 15N pulse
+1-5_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,+trp (Lon induction),label 15N; 2 hs after 15N pulse
+1-5_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,+trp (Lon induction),label 15N; 2 hs after 15N pulse
+1-6_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,+trp (Lon induction),label 15N; 5 hs after 15N pulse
+1-6_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,+trp (Lon induction),label 15N; 5 hs after 15N pulse
+1-7_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,+trp (Lon induction),label 15N; 8 hs after 15N pulse
+1-7_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,+trp (Lon induction),label 15N; 8 hs after 15N pulse
+1-8_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,+trp (Lon induction),label 15N; 11 hs after 15N pulse
+1-8_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,+trp (Lon induction),label 15N; 11 hs after 15N pulse
+3-1_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,-trp,label 15N; 2 hs after 15N pulse
+3-1_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,-trp,label 15N; 2 hs after 15N pulse
+3-2_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,-trp,label 15N; 5 hs after 15N pulse
+3-2_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,-trp,label 15N; 5 hs after 15N pulse
+3-3_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,-trp,label 15N; 8 hs after 15N pulse
+3-3_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,-trp,label 15N; 8 hs after 15N pulse
+3-4_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,-trp,label 15N; 11 hs after 15N pulse
+3-4_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,-trp,label 15N; 11 hs after 15N pulse
+3-5_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,+trp (Lon induction),label 15N; 2 hs after 15N pulse
+3-5_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,+trp (Lon induction),label 15N; 2 hs after 15N pulse
+3-6_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,+trp (Lon induction),label 15N; 5 hs after 15N pulse
+3-6_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,+trp (Lon induction),label 15N; 5 hs after 15N pulse
+3-7_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,+trp (Lon induction),label 15N; 8 hs after 15N pulse
+3-7_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,+trp (Lon induction),label 15N; 8 hs after 15N pulse
+3-8_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,+trp (Lon induction),label 15N; 11 hs after 15N pulse
+3-8_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,+trp (Lon induction),label 15N; 11 hs after 15N pulse
+4-1_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,-trp,label 15N; 2 hs after 15N pulse
+4-1_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,-trp,label 15N; 2 hs after 15N pulse
+4-2_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,-trp,label 15N; 5 hs after 15N pulse
+4-2_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,-trp,label 15N; 5 hs after 15N pulse
+4-3_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,-trp,label 15N; 8 hs after 15N pulse
+4-3_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,-trp,label 15N; 8 hs after 15N pulse
+4-4_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,-trp,label 15N; 11 hs after 15N pulse
+4-4_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,-trp,label 15N; 11 hs after 15N pulse
+4-5_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,+trp (Lon induction),label 15N; 2 hs after 15N pulse
+4-5_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,+trp (Lon induction),label 15N; 2 hs after 15N pulse
+4-6_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,+trp (Lon induction),label 15N; 5 hs after 15N pulse
+4-6_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,+trp (Lon induction),label 15N; 5 hs after 15N pulse
+4-7_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,+trp (Lon induction),label 15N; 8 hs after 15N pulse
+4-7_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,+trp (Lon induction),label 15N; 8 hs after 15N pulse
+4-8_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,+trp (Lon induction),label 15N; 11 hs after 15N pulse
+4-8_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,+trp (Lon induction),label 15N; 11 hs after 15N pulse
+D_1-0_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,,label 13C; t0 + 13C internal standard
+D_1-0_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,,label 13C; t0 + 13C internal standard
+D_1-1_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,-trp,label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_1-1_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,-trp,label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_1-2_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,-trp,label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_1-2_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,-trp,label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_1-3_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,-trp,label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_1-3_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,-trp,label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_1-4_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,-trp,label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_1-4_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,-trp,label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_1-5_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,+trp (Lon induction),label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_1-5_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,+trp (Lon induction),label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_1-6_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,+trp (Lon induction),label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_1-6_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,+trp (Lon induction),label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_1-7_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,+trp (Lon induction),label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_1-7_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,+trp (Lon induction),label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_1-8_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 1,+trp (Lon induction),label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_1-8_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 1,+trp (Lon induction),label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_3-0_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,,label 13C; t0 + 13C internal standard
+D_3-0_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,,label 13C; t0 + 13C internal standard
+D_3-1_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,-trp,label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_3-1_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,-trp,label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_3-2_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,-trp,label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_3-2_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,-trp,label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_3-3_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,-trp,label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_3-3_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,-trp,label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_3-4_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,-trp,label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_3-4_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,-trp,label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_3-5_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,+trp (Lon induction),label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_3-5_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,+trp (Lon induction),label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_3-6_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,+trp (Lon induction),label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_3-6_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,+trp (Lon induction),label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_3-7_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,+trp (Lon induction),label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_3-7_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,+trp (Lon induction),label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_3-8_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 3,+trp (Lon induction),label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_3-8_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 3,+trp (Lon induction),label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_4-0_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,,label 13C; t0 + 13C internal standard
+D_4-0_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,,label 13C; t0 + 13C internal standard
+D_4-1_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,-trp,label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_4-1_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,-trp,label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_4-2_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,-trp,label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_4-2_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,-trp,label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_4-3_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,-trp,label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_4-3_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,-trp,label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_4-4_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,-trp,label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_4-4_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,-trp,label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_4-5_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,+trp (Lon induction),label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_4-5_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,+trp (Lon induction),label 15N&13C ; 2 hs after 15N pulse + 13C internal standard
+D_4-6_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,+trp (Lon induction),label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_4-6_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,+trp (Lon induction),label 15N&13C ; 5 hs after 15N pulse + 13C internal standard
+D_4-7_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,+trp (Lon induction),label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_4-7_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,+trp (Lon induction),label 15N&13C ; 8 hs after 15N pulse + 13C internal standard
+D_4-8_C-top20.raw,HVLON3,Exponential,Cytoplasm ,replicate 4,+trp (Lon induction),label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+D_4-8_M-top20.raw,HVLON3,Exponential,Membrane ,replicate 4,+trp (Lon induction),label 15N&13C ; 11 hs after 15N pulse + 13C internal standard
+1-1.raw,H26,Exponential,Membrane ,replicate 1,DSP; anti-NmLon immunoprecipitation,
+1-1N.raw,H26,Exponential,Membrane ,replicate 1,DSP; anti-Nep immunoprecipitation,
+1-3.raw,H26,Exponential,Membrane ,replicate 1,Formaldehyde; anti-NmLon immunoprecipitation,
+1-3N.raw,H26,Exponential,Membrane ,replicate 1,Formaldehyde; anti-Nep immunoprecipitation,
+2-1.raw,H26,Exponential,Membrane ,replicate 2,DSP; anti-NmLon immunoprecipitation,
+2-1N.raw,H26,Exponential,Membrane ,replicate 2,DSP; anti-Nep immunoprecipitation,
+2-3.raw,H26,Exponential,Membrane ,replicate 2,Formaldehyde; anti-NmLon immunoprecipitation,
+2-3N.raw,H26,Exponential,Membrane ,replicate 2,Formaldehyde; anti-Nep immunoprecipitation,
+3-1.raw,H26,Exponential,Membrane ,replicate 3,DSP; anti-NmLon immunoprecipitation,
+3-1N.raw,H26,Exponential,Membrane ,replicate 3,DSP; anti-Nep immunoprecipitation,
+3-3.raw,H26,Exponential,Membrane ,replicate 3,Formaldehyde; anti-NmLon immunoprecipitation,
+3-3N.raw,H26,Exponential,Membrane ,replicate 3,Formaldehyde; anti-Nep immunoprecipitation,
+4-1.raw,H26,Exponential,Membrane ,replicate 4,DSP; anti-NmLon immunoprecipitation,
+4-1N.raw,H26,Exponential,Membrane ,replicate 4,DSP; anti-Nep immunoprecipitation,
+4-3.raw,H26,Exponential,Membrane ,replicate 4,Formaldehyde; anti-NmLon immunoprecipitation,
+4-3N.raw,H26,Exponential,Membrane ,replicate 4,Formaldehyde; anti-Nep immunoprecipitation,

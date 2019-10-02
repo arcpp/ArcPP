@@ -1,0 +1,73 @@
+Raw file name,Strain,Growth phase,Cell fraction,Replicate,Comments
+MIG_1-1.raw,MIG1,Exponential,Membrane,replicate 1,Protomap; section 1
+MIG_1-2.raw,MIG1,Exponential,Membrane,replicate 1,Protomap; section 2
+MIG_1-3.raw,MIG1,Exponential,Membrane,replicate 1,Protomap; section 3
+MIG_1-4.raw,MIG1,Exponential,Membrane,replicate 1,Protomap; section 4
+MIG_2-1.raw,MIG1,Exponential,Membrane,replicate 2,Protomap; section 1
+MIG_2-2.raw,MIG1,Exponential,Membrane,replicate 2,Protomap; section 2
+MIG_2-3.raw,MIG1,Exponential,Membrane,replicate 2,Protomap; section 3
+MIG_2-4.raw,MIG1,Exponential,Membrane,replicate 2,Protomap; section 4
+MIG_3-1.raw,MIG1,Exponential,Membrane,replicate 3,Protomap; section 1
+MIG_3-2.raw,MIG1,Exponential,Membrane,replicate 3,Protomap; section 2
+MIG_3-3.raw,MIG1,Exponential,Membrane,replicate 3,Protomap; section 3
+MIG_3-4.raw,MIG1,Exponential,Membrane,replicate 3,Protomap; section 4
+MIG_EXP1_botttom20.raw,MIG1,Exponential,Membrane,replicate 4,
+MIG_EXP1_top20.raw,MIG1,Exponential,Membrane,replicate 4,
+MIG_EXP2_botttom20.raw,MIG1,Exponential,Membrane,replicate 5,
+MIG_EXP2_top20.raw,MIG1,Exponential,Membrane,replicate 5,
+MIG_EXP3_botttom20.raw,MIG1,Exponential,Membrane,replicate 6,
+MIG_EXP3_top20.raw,MIG1,Exponential,Membrane,replicate 6,
+MIG_L-1C.raw,MIG1,Exponential,Cytoplasm,replicate 1,
+MIG_L-1M.raw,MIG1,Exponential,Membrane,replicate 1,
+MIG_L-2C.raw,MIG1,Exponential,Cytoplasm,replicate 2,
+MIG_L-2M.raw,MIG1,Exponential,Membrane,replicate 2,
+MIG_S-1C.raw,MIG1,Stationary,Cytoplasm,replicate 1,
+MIG_S-1M.raw,MIG1,Stationary,Membrane,replicate 1,
+MIG_S-2C.raw,MIG1,Stationary,Cytoplasm,replicate 2,
+MIG_S-2M.raw,MIG1,Stationary,Membrane,replicate 2,
+MIG_ST1_botttom20.raw,MIG1,Stationary,Membrane,replicate 4,
+MIG_ST1_top20.raw,MIG1,Stationary,Membrane,replicate 4,
+MIG_ST2_botttom20.raw,MIG1,Stationary,Membrane,replicate 5,
+MIG_ST2_top20.raw,MIG1,Stationary,Membrane,replicate 5,
+MIG_ST3_botttom20.raw,MIG1,Stationary,Membrane,replicate 6,
+MIG_ST3_top20.raw,MIG1,Stationary,Membrane,replicate 6,
+Mig_L-3C.raw,MIG1,Exponential,Cytoplasm,replicate 3,
+Mig_L-3M.raw,MIG1,Exponential,Membrane,replicate 3,
+Mig_S-3C.raw,MIG1,Stationary,Cytoplasm,replicate 3,
+Mig_S-3M.raw,MIG1,Stationary,Membrane,replicate 3,
+WT_1-1.raw,H26,Exponential,Membrane,replicate 1,Protomap; section 1
+WT_1-2.raw,H26,Exponential,Membrane,replicate 1,Protomap; section 2
+WT_1-3.raw,H26,Exponential,Membrane,replicate 1,Protomap; section 3
+WT_1-4.raw,H26,Exponential,Membrane,replicate 1,Protomap; section 4
+WT_2-1.raw,H26,Exponential,Membrane,replicate 2,Protomap; section 1
+WT_2-2.raw,H26,Exponential,Membrane,replicate 2,Protomap; section 2
+WT_2-3.raw,H26,Exponential,Membrane,replicate 2,Protomap; section 3
+WT_2-4.raw,H26,Exponential,Membrane,replicate 2,Protomap; section 4
+WT_3-1.raw,H26,Exponential,Membrane,replicate 3,Protomap; section 1
+WT_3-2.raw,H26,Exponential,Membrane,replicate 3,Protomap; section 2
+WT_3-3.raw,H26,Exponential,Membrane,replicate 3,Protomap; section 3
+WT_3-4.raw,H26,Exponential,Membrane,replicate 3,Protomap; section 4
+WT_EXP1_botttom20.raw,H26,Exponential,Membrane,replicate 4,
+WT_EXP1_top20.raw,H26,Exponential,Membrane,replicate 4,
+WT_EXP2_botttom20.raw,H26,Exponential,Membrane,replicate 5,
+WT_EXP2_top20.raw,H26,Exponential,Membrane,replicate 5,
+WT_EXP3_botttom20.raw,H26,Exponential,Membrane,replicate 6,
+WT_EXP3_top20.raw,H26,Exponential,Membrane,replicate 6,
+WT_L-1C.raw,H26,Exponential,Cytoplasm,replicate 1,
+WT_L-1M.raw,H26,Exponential,Membrane,replicate 1,
+WT_L-2C.raw,H26,Exponential,Cytoplasm,replicate 2,
+WT_L-2M.raw,H26,Exponential,Membrane,replicate 2,
+WT_L-3C.raw,H26,Exponential,Cytoplasm,replicate 3,
+WT_L-3M.raw,H26,Exponential,Membrane,replicate 3,
+WT_S-1C.raw,H26,Stationary,Cytoplasm,replicate 1,
+WT_S-1M.raw,H26,Stationary,Membrane,replicate 1,
+WT_S-2C.raw,H26,Stationary,Cytoplasm,replicate 2,
+WT_S-2M.raw,H26,Stationary,Membrane,replicate 2,
+WT_S-3C.raw,H26,Stationary,Cytoplasm,replicate 3,
+WT_S-3M.raw,H26,Stationary,Membrane,replicate 3,
+WT_ST1_botttom20.raw,H26,Stationary,Membrane,replicate 4,
+WT_ST1_top20.raw,H26,Stationary,Membrane,replicate 4,
+WT_ST2_botttom20.raw,H26,Stationary,Membrane,replicate 5,
+WT_ST2_top20.raw,H26,Stationary,Membrane,replicate 5,
+WT_ST3_botttom20.raw,H26,Stationary,Membrane,replicate 6,
+WT_ST3_top20.raw,H26,Stationary,Membrane,replicate 6,
