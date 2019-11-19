@@ -18,3 +18,6 @@ RR02,AF103,DpHV2; DpyrE2 Dtrp; DartA,pRR02 (pTA963 containing artAR214A173AsmRS-
 RR03,AF103,DpHV2; DpyrE2 Dtrp; DartA,pRR03 (pTA963 containing artAR253AsmRS-GFP),Pohlschroder (unpublished),
 LM08,H26,DpHV2; DpyrE2 DlysA DargH,none,McMillan et al. (2018) Envir. Microb. 20(1):385-401,
 HM1052,H26,DpHV2; DpyrE2 DubaA,pJAM202c (empty vector),Miranda et al. (2014) Mol Cell Proteomics. 13(1):220-39,
+H26,DS2,DpHV2; DpyrE2,pJAM202c (empty vector),Miranda et al. (2014) Mol Cell Proteomics. 13(1):220-39,
+H26,DS2,DpHV2; DpyrE2,pJAM977 (pJAM202c containing Flag-SAMP3),Miranda et al. (2014) Mol Cell Proteomics. 13(1):220-39,
+HM1055,H26,DpHV2; DpyrE2 dubaA,pJAM977 (pJAM202c containing Flag-SAMP3),Miranda et al. (2014) Mol Cell Proteomics. 13(1):220-39,
