@@ -1,7 +1,7 @@
 PRIDE ID,Strains,Cellular Fractions,Growth medium,Supplements,Temperature,Growth phase,Lysis,Labeling,Alkylation,Additional Sample Processing,Digestion method,Digestion Enzyme,Peptide Fractionation or Enrichment
 PXD000202,H26-pJAM202c; H26-pJAM977,whole cells,ATCC974 complex medium ,,42,stationary (42oC),Osmotic lysis; Triton-X-100 (1%),None,Iodoacetamide,None,In-gel,AspN; Trypsin,a-Flag purified; SDS-PAGE (non-reducing; 10 fractions)
 PXD000202,H26-pJAM202c; H26-pJAM1198 ,whole cells,ATCC974 complex medium ,,42,stationary (42oC),Osmotic lysis; Triton-X-100 (1%),None,Iodoacetamide,None,In-gel,Trypsin,a-Flag purified; SDS-PAGE (non-reducing; 10 fractions)
-PXD006877,LM08 (H26 DargH DlysA),whole cells,GMM (+/- 2.5 mM NaOCl,,42,exponential (42oC),Freeze-thaw; TRIzol,SILAC,Methyl methanethiosulfonate ,None,In-solution,Trypsin,SCX (14 fractions)
+PXD006877,LM08 (H26 DargH DlysA),whole cells,Hv-Min glycerol (+/- 2.5 mM NaOCl),+Ura (50 ug/ml; no DMSO); +0.3 mM lysine(+8Da/+0Da); +0.3 mM arginine(+6Da/+0Da),42,exponential (42oC),Freeze-thaw; TRIzol,SILAC,Methyl methanethiosulfonate ,None,In-solution,Trypsin,SCX (14 fractions)
 PXD007061,H26; HVLON3,membrane; cytoplasm,Hv-Min glucose,+Ura (50 ug/ml); +/-Trp (50 ug/ml),42,exponential; stationary (42oC),Sonication,15N; 13C,Iodoacetamide,None,In-gel,Trypsin,None
 PXD009116,H26; Natrialba magadii,membrane; cytoplasm,MGM (Tindall for N. magadii),,42,exponential; stationary (42oC),Sonication,None,Iodoacetamide,None,In-gel,Trypsin,None
 PXD010824,FH26; FH59,membrane; cytoplasm,Hv-CA,+Trp (50 ug/ml),45,exponential,Osmotic lysis; Freeze-thaw,None,Iodoacetamide,FASP,FASP,Trypsin,None
@@ -9,6 +9,6 @@ PXD011012,H53,whole cells,Hv-CA,+Ura (50 ug/ml); +Trp (50 ug/ml),45,"exponential
 PXD011015,H53; aglB::trp,supernatant,Hv-CA,+Ura (50 ug/ml); +/-Trp (50 ug/ml),45,exponential (45oC),None,None,Iodoacetamide,FASP,FASP,GluC,CsCl fractionation
 PXD011050,H53; AF103; FH54; RR01; RR02; RR03; JS27,membrane; supernatant,Hv-CA,+/-Ura (50 ug/ml); +/-Trp (50 ug/ml),45,exponential (45oC),Osmotic lysis; Freeze-thaw,None,Iodoacetamide,FASP,FASP,Trypsin; GluC,CsCl fractionation (for SN)
 PXD011056,H119,whole cells,Hv-YPC; Hv-YPC (high salt); Hv-YPC (low salt),,30; 45; 53,exponential (45oC; 30oC; 53oC),Sonication; sodium taurodeoxycholate (0.006%),None,Iodoacetamide,Acetone precipitation,In-solution,Trypsin,High-pH/reversed phase
-PXD011218,H26; MIG1,membrane; cytoplasm; supernatant,MGM,+Ura (50 ug/ml); +Trp,42,exponential; stationary (42oC),Sonication,None,Iodoacetamide,None,In-gel,Trypsin,only for membranes SDS-PAGE (4 fractions)
-PXD013046,H26; HVLON3; HVABI,membrane; cytoplasm,Hv-Min,+Ura (50 ug/ml); +Trp,42,exponential; stationary (42oC),Sonication,None,None,None,In-gel,Trypsin,None
+PXD011218,H26; MIG1,membrane; cytoplasm; supernatant,MGM,+Ura (50 ug/ml); +Trp (50 ug/ml),42,exponential; stationary (42oC),Sonication,None,Iodoacetamide,None,In-gel,Trypsin,only for membranes SDS-PAGE (4 fractions)
+PXD013046,H26; HVLON3; HVABI,membrane; cytoplasm,Hv-Min,+Ura (50 ug/ml); +Trp (50 ug/ml),42,exponential; stationary (42oC),Sonication,None,None,None,In-gel,Trypsin,None
 PXD014974,H26,whole cells,Hv-YPC,,42,exponential (42oC),150mM NaCl; 100mM EDTA; 50 mM Tris pH 8.5; 1mM MgCl2; 1%SDS for 13 min at 95oC,None,Iodoacetamide,Acetone precipitation; FASP,FASP,Trypsin,None
