@@ -25,7 +25,7 @@ with open(db_fasta, 'r') as db_input:
         protein_dict[fasta_id] = db_sequence
 
 coverage_dict = {}
-df = pd.read_csv(os.path.join('results', 'ArcPP_results.csv'))
+df = pd.read_csv(os.path.join('results', 'ArcPP_results_proteins.csv'))
 for index, row in df.iterrows():
     prot = row['Protein ID']
     try:

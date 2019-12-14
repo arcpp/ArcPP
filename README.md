@@ -6,7 +6,7 @@ Therefore, we have initiated the Archaeal Proteome Project (ArcPP), a community 
 * reanalyzed more than 23 Mio. spectra
 * optimized the analysis using parameter sweeps, multiple search engines implemented in Ursgal, and the combination of resultsthrough the combined PEP approach
 * thoroughly controlled false discovery rates for high confidence protein identifications using the picked protein FDR approach and limiting FDR to 0.5%
-* identified more than 40k peptides, corresponding to over 3000 proteins (>75% of the proteome) with a median sequence coverage of 50%
+* identified more than 40k peptides, corresponding to 2930 proteins (>72% of the proteome) with a median sequence coverage of 56%.
 
 Benefiting from the established bioinformatic infrastructure, we will follow up on this analysis focusing on H. volcanii proteogenomics as well as the characterization of various post-translational modifications. Furthermore, ArcPP will integrate quantitative results obtained from the individual datasets in order to identify common regulatory mechanisms. These studies on the H. volcanii proteome can serve as a blueprint for comprehensive proteomic analyses performed on a diverse range of archaea and bacteria.
 
@@ -17,13 +17,13 @@ Coming soon.
 
 ## Installation
 
-Get the latest version via GitHub: https://github.com/StSchulze/ArcPP
+Get the latest version via GitHub: https://github.com/arcPP/ArcPP
 
-as a .zip package: https://github.com/StSchulze/ArcPP/archive/master.zip
+as a .zip package: https://github.com/arcPP/ArcPP/archive/master.zip
 
 or via git clone::
 
- 	git clone https://github.com/StSchulze/ArcPP.git
+ 	git clone https://github.com/ArcPP/ArcPP.git
 
 For looking at the meta data, database and result files, of course no specific software is required.
 However, if you want to use the Dash app to search for proteins,
@@ -42,30 +42,31 @@ To start the Dash app, simply execute the script Arcpp_results_dash_app.py in th
 Dash automatically starts a local server and you can view the results opening the following page in you browser:
 http://127.0.0.1:8050/
 
-## Documentation
-
-As the project develops, a more extensive documentation via readthedocs will be included.
 
 ## Questions and Participation
 
 If you encounter any problems you can open up issues at GitHub, or contact us directly by email.
-For any contributions, fork us at https://github.com/StSchulze/ArcPP. and open up pull requests.
+For any contributions, fork us at https://github.com/arcPP/ArcPP and open up pull requests.
 
 ## Copyrights
 
 Copyright 2019-today by authors and contributors in alphabetical order
 
 * Zach Adams
-* Rosana de Castro
 * Micaela Cerletti
+* Rosana De Castro
 * Sébastien Ferreira-Cerca
+* María Inés Giménez
 * Michael Hippler
 * Zivojin Jevtic
 * Robert Knüppel
+* Georgio Legerme
 * Christof Lenz
 * Anita Marchfelder
 * Julie Maupin-Furlow
+* Roberto A. Paggi
 * Friedhelm Pfeiffer
+* Ansgar Poetsch
 * Mechthild Pohlschroder
 * Ansgar Poetsch
 * Stefan Schulze
@@ -84,4 +85,4 @@ While all analyses for ArcPP have been performed with greatest care, errors in t
 
 ## License
 
-The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [GNU Lesser General Public License v3.0](https://github.com/StSchulze/ArcPP/blob/master/LICENSE).
+The content of this project itself is licensed under the [Creative Commons Attribution 3.0 Unported license](https://creativecommons.org/licenses/by/3.0/), and the underlying source code used to format and display that content is licensed under the [GNU Lesser General Public License v3.0](https://github.com/arcPP/ArcPP/blob/master/LICENSE).
