@@ -1,0 +1,57 @@
+Raw file name,SCX fraction,Replicate,Condition heavy SILAC,Condition unlabeled
+Lana-SILAC-1.raw,1,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-2.raw,2,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-3.raw,3,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-4.raw,4,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-5.raw,5,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-6.raw,6,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-7.raw,7,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-8.raw,8,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-9.raw,9,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-10.raw,10,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-11.raw,11,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-12.raw,12,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-13.raw,13,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-2-1.raw,2-1,replicate 1,2.5 mM NaOCl ,control
+Lana-SILAC-2-1.raw,1,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-2.raw,2,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-3.raw,3,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-4.raw,4,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-5.raw,5,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-6.raw,6,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-7.raw,7,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-8.raw,8,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-9.raw,9,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-10.raw,10,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-11.raw,11,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-12.raw,12,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-13.raw,13,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-2-2-1.raw,2-1,replicate 2,control,2.5 mM NaOCl 
+Lana-SILAC-3-1.raw,1,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-2.raw,2,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-3.raw,3,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-4.raw,4,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-5.raw,5,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-6.raw,6,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-7.raw,7,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-8.raw,8,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-9.raw,9,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-10.raw,10,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-11.raw,11,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-12.raw,12,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-13.raw,13,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-3-2-1.raw,2-1,replicate 3,2.5 mM NaOCl ,control
+Lana-SILAC-4-1.raw,1,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-2.raw,2,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-3.raw,3,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-4.raw,4,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-5.raw,5,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-6.raw,6,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-7.raw,7,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-8.raw,8,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-9.raw,9,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-10.raw,10,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-11.raw,11,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-12.raw,12,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-13.raw,13,replicate 4,control,2.5 mM NaOCl 
+Lana-SILAC-4-2-1.raw,2-1,replicate 4,control,2.5 mM NaOCl 
