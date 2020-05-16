@@ -26,7 +26,7 @@ or via git clone::
 
     git clone https://github.com/ArcPP/ArcPP.git
 
-Further result files can found under DOI 10.5281/zenodo.3724743.
+Further result files can found here: https://doi.org/10.5281/zenodo.3825856.
 
 ## How to use
 
@@ -64,7 +64,6 @@ Copyright 2019-today by authors and contributors in alphabetical order
 * Friedhelm Pfeiffer
 * Ansgar Poetsch
 * Mechthild Pohlschroder
-* Ansgar Poetsch
 * Stefan Schulze
 * Henning Urlaub
 

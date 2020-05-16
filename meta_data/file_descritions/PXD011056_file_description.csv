@@ -1,0 +1,33 @@
+Raw file name,Condition,Fraction,Replicate
+Z_Jevtic_040316_C+Dfractions_01_C1-CTL_01_F1.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",1,replicate 1
+Z_Jevtic_040316_C+Dfractions_01_C2-CTL_01_F2.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",2,replicate 1
+Z_Jevtic_040316_C+Dfractions_01_C3-CTL_01_F3.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",3,replicate 1
+Z_Jevtic_040316_C+Dfractions_01_C4-CTL_01_F4.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",4,replicate 1
+Z_Jevtic_040316_C+Dfractions_01_C5-CTL_01_F5.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",5,replicate 1
+Z_Jevtic_040316_C+Dfractions_01_C6-CTL_01_F6.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",6,replicate 1
+Z_Jevtic_040316_C+Dfractions_01_C7-CTL_01_F7.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",7,replicate 1
+Z_Jevtic_040316_C+Dfractions_01_C8-CTL_01_F8.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",8,replicate 1
+Z_Jevtic_040316_C+Dfractions_01_D1-DTL_01_F1.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",1,replicate 2
+Z_Jevtic_040316_C+Dfractions_01_D2-DTL_01_F2.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",2,replicate 2
+Z_Jevtic_040316_C+Dfractions_01_D3-DTL_01_F3.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",3,replicate 2
+Z_Jevtic_040316_C+Dfractions_01_D4b-DTL_01_F4.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",4,replicate 2
+Z_Jevtic_040316_C+Dfractions_01_D5-DTL_01_F5.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",5,replicate 2
+Z_Jevtic_040316_C+Dfractions_01_D6-DTL_01_F6.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",6,replicate 2
+Z_Jevtic_040316_C+Dfractions_01_D7-DTL_01_F7.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",7,replicate 2
+Z_Jevtic_040316_C+Dfractions_01_D8-DTL_01_F8.raw,"pooled treatment: Hv-YPC (high salt); Hv-YPC (low salt), 30cC; 53oC",8,replicate 2
+Z_Jevtic_071215_HALVO_F01_01-5ul_injection.raw,control: Hv-YPC; 45oC,1,replicate 1
+Z_Jevtic_071215_HALVO_F02_01-5ul_injection.raw,control: Hv-YPC; 45oC,2,replicate 1
+Z_Jevtic_071215_HALVO_F03_01-5ul_injection.raw,control: Hv-YPC; 45oC,3,replicate 1
+Z_Jevtic_071215_HALVO_F04_01-5ul_injection.raw,control: Hv-YPC; 45oC,4,replicate 1
+Z_Jevtic_071215_HALVO_F05_01-5ul_injection.raw,control: Hv-YPC; 45oC,5,replicate 1
+Z_Jevtic_071215_HALVO_F06_01-5ul_injection.raw,control: Hv-YPC; 45oC,6,replicate 1
+Z_Jevtic_071215_HALVO_F07_01-5ul_injection.raw,control: Hv-YPC; 45oC,7,replicate 1
+Z_Jevtic_071215_HALVO_F08_01-5ul_injection.raw,control: Hv-YPC; 45oC,8,replicate 1
+Z_Jevtic_071215_HALVO_F01_02-5ul_injection.raw,control: Hv-YPC; 45oC,1,replicate 2
+Z_Jevtic_071215_HALVO_F02_02-5ul_injection.raw,control: Hv-YPC; 45oC,2,replicate 2
+Z_Jevtic_071215_HALVO_F03_02-5ul_injection.raw,control: Hv-YPC; 45oC,3,replicate 2
+Z_Jevtic_071215_HALVO_F04_02-5ul_injection.raw,control: Hv-YPC; 45oC,4,replicate 2
+Z_Jevtic_071215_HALVO_F05_02-5ul_injection.raw,control: Hv-YPC; 45oC,5,replicate 2
+Z_Jevtic_071215_HALVO_F06_02-5ul_injection.raw,control: Hv-YPC; 45oC,6,replicate 2
+Z_Jevtic_071215_HALVO_F07_03-5ul_injection.raw,control: Hv-YPC; 45oC,7,replicate 2
+Z_Jevtic_071215_HALVO_F08_03-5ul_injection.raw,control: Hv-YPC; 45oC,8,replicate 2

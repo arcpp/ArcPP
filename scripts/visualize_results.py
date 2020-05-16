@@ -993,6 +993,7 @@ def write_results2csv(results_dict, output_filename=None, inference_dict=None, p
             count_nonidentified+=1
             out_dict = {} 
             out_dict['Dataset'] = 'None'
+            out_dict['Total Datasets'] = 0
             prot_id = prot.split(' ')
             out_dict['HVO ID'] = prot_id[0]
             out_dict['Uniprot ID'] = prot_id[1].strip('[').strip(']')

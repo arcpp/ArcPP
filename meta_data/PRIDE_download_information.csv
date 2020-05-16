@@ -1,13 +1,13 @@
 Dataset name,Lab,PRIDE ID,Year,Month,FTP URL,Reference (PMID)
 Archael ubiquitin-like SAMP3 is isopeptide-linked to Proteins by an UbaA-dependent mechanism ,Maupin-Furlow,PXD000202,2014,2,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2014/02/PXD000202/,24097257
-Haloferax volcanii SILAC study of Oxidative stress ,Maupin-Furlow,PXD006877 ,2017,7,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2018/01/PXD006877/,29194950
-Haloferax volcanii proteome turn-over analysis of a LonB mutant and co-IP results with anti-LonB,De Castro,PXD007061,2018,2,https://repository.jpostdb.org/entry/JPST000291,29411617
-Proteomic study of the transition to stationary phase in halorchaea Natrialba magadii and Haloferax volcanii,De Castro,PXD009116,2018,2,https://repository.jpostdb.org/entry/JPST000395,29888524
-Characterizing of Haloferax volcanii Hvo_0405 as a Tat substrate ,Pohlschroder,PXD010824 ,2018,8,,28069824
-Quantitative (Glyco-)Proteomics of Haloferax volcanii Biofilm Formation ,Pohlschroder,PXD011012 ,2018,9,,unpublished
-Characterizing N-Glycosylation of Pilins and Flagellins from Haloferax volcanii ,Pohlschroder,PXD011015 ,2018,9,,26966177
-Mass spectrometric analysis of proteolytic cleavage related to ArtA and PssA from Haloferax volcanii,Pohlschroder,PXD011050 ,2018,9,,unpublished
-Haloferax volcanii Proteome Response to Salt/Temp stress,Marchfelder,PXD011056,2018,9,,31502396
-Haloferax volcanii Proteome Response to Deletion of a Rhomboid Protease Gene,De Castro,PXD011218,2018,9,,29301397
-Global role of the membrane protease LonB in Archaea: Potential protease targets revealed by quantitative proteome analysis of a lonB mutant in Haloferax volcanii,De Castro,PXD013046,2019,3,https://repository.jpostdb.org/preview/12519029385c86a05e4c9b1,25829260
-Haloferax WT vs delta KsgA proteome ,Ferreira-Cerca ,PXD014974,2019,2,,unpublished
+Haloferax volcanii SILAC study of Oxidative stress ,Maupin-Furlow,PXD006877 ,2018,1,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2018/01/PXD006877/,29194950
+Haloferax volcanii proteome turn-over analysis of a LonB mutant and co-IP results with anti-LonB,De Castro,PXD007061,2018,2,ftp://jpost.pharm.kyoto-u.ac.jp/repository/JPST000291,29411617
+Proteomic study of the transition to stationary phase in halorchaea Natrialba magadii and Haloferax volcanii,De Castro,PXD009116,2018,2,ftp://jpost.pharm.kyoto-u.ac.jp/repository/JPST000395,29888524
+Characterizing of Haloferax volcanii Hvo_0405 as a Tat substrate ,Pohlschroder,PXD010824 ,2020,5,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2020/05/PXD010824/,28069824
+Quantitative (Glyco-)Proteomics of Haloferax volcanii Biofilm Formation ,Pohlschroder,PXD011012 ,2020,5,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2020/05/PXD011012/,
+Characterizing N-Glycosylation of Pilins and Flagellins from Haloferax volcanii ,Pohlschroder,PXD011015 ,2020,5,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2020/05/PXD011015/,26966177
+Mass spectrometric analysis of proteolytic cleavage related to ArtA and PssA from Haloferax volcanii,Pohlschroder,PXD011050 ,2020,5,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2020/05/PXD011050/,
+Haloferax volcanii Proteome Response to Salt/Temp stress,Marchfelder,PXD011056,2019,9,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2019/09/PXD011056/,31502396
+Haloferax volcanii Proteome Response to Deletion of a Rhomboid Protease Gene,De Castro,PXD011218,2020,5,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2020/05/PXD011218/,29301397
+Global role of the membrane protease LonB in Archaea: Potential protease targets revealed by quantitative proteome analysis of a lonB mutant in Haloferax volcanii,De Castro,PXD013046,2020,3,ftp://jpost.pharm.kyoto-u.ac.jp/repository/JPST000565,25829260
+Haloferax volcanii Shotgun Archaeal Proteome Project ,Ferreira-Cerca ,PXD014974,2020,5,ftp://ftp.pride.ebi.ac.uk/pride/data/archive/2020/05/PXD014974/,
