@@ -202,6 +202,9 @@ offsets = {
 
 def main(folder=None, enzyme=None, target_decoy_database=None):
     '''
+    Workflow for the analysis a dataset with multiple runs per sample.
+    Usage:
+        python <script_name.py> <folder_with_mzML> <enzyme> <path_to_database>
     '''
     # # define folder with mzML_files as sys.argv[1]
     mzML_files = []

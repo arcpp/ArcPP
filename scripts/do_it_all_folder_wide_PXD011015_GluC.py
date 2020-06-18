@@ -62,17 +62,21 @@ offsets = {
 
 def main(folder=None, enzyme=None, target_decoy_database=None):
     '''
+    Workflow for the analysis a dataset with multiple runs per sample.
+    Usage:
+        python <script_name.py> <folder_with_mzML> <enzyme> <path_to_database>
     '''
     # define folder with mzML_files as sys.argv[1]
     mzML_files = []
-    for mzml in glob.glob(os.path.join(folder, '*.mzML')):
-        mzML_files.append(mzml)
     offset_files = []
     for sample in offsets.keys():
-        offset_files.append(sample)
+        for mzml in glob.glob(os.path.join(folder, sample, '*.mzML')):
+            mzML_files.append(mzml)
+        for offset_file in offsets[sample].keys():
+            offset_files.append(offset_file)
     for mzml in mzML_files:
         if os.path.basename(mzml) not in offset_files:
-            print('mzML file in folder but NOT in offset dict: {}'.format(mzml))
+            print('mzML file in folder but NOT in offset dict: {0}'.format(mzml))
             exit()
 
     mass_spectrometer = 'QExactive+'

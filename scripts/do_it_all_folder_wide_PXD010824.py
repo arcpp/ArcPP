@@ -18,6 +18,9 @@ offsets = {
 
 def main(folder=None, enzyme=None, target_decoy_database=None):
     '''
+    Workflow for the analysis a dataset with one run per sample.
+    Usage:
+        python <script_name.py> <folder_with_mzML> <enzyme> <path_to_database>
     '''
     # define folder with mzML_files as sys.argv[1]
     mzML_files = []
@@ -68,84 +71,61 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
     )
 
     all_result_files = []
-    for n, sample in enumerate(offsets.keys()):
+    for n, sample in enumerate(sorted(offsets.keys(), reverse = True)):
         validated_result_files = []
-        combined_pep_result_files = []
         for search_engine in search_engines:
-            results = []
-            for spec_file in offsets[sample].keys():
-                basename = spec_file
-                dirname = os.path.join(folder)
-                offset = offsets[sample][basename]
-                spec_file_path = os.path.join(dirname, basename)
-                if offset == 'skip':
-                    continue
-                uc.params['machine_offset_in_ppm'] = offset
-                mgf_file = uc.convert(
-                    input_file=spec_file_path,
-                    engine='mzml2mgf_2_0_0',
-                )
-
-                uc.params['modifications'] = [
-                    'C,fix,any,Carbamidomethyl',
-                    'M,opt,any,Oxidation',
-                    '*,opt,Prot-N-term,Acetyl',
-                ]
-                search_result = uc.search_mgf(
-                    input_file = mgf_file,
-                    engine = search_engine,
-                )
-
-                converted_result = uc.convert(
-                    input_file=search_result,
-                    guess_engine = True,
-                )
-                
-                mapped_results = uc.execute_misc_engine(
-                    input_file=converted_result,
-                    engine='upeptide_mapper',
-                )
-
-                unified_search_results = uc.execute_misc_engine(
-                    input_file = mapped_results,
-                    engine='unify_csv'
-                )
-
-                results.append(unified_search_results)
-
-                # validated_single_csv = uc.validate(
-                #     input_file  = unified_search_results,
-                #     engine      = validation_engine,
-                # )
-                # 
-                # uc.params['csv_filter_rules'] = [
-                #     # ['Is decoy', 'equals', 'false'],
-                #     ['combined PEP','lte', 0.01],
-                #     ['Conflicting uparam', 'contains_not', 'enzyme'],
-                # ]
-                # filtered_combined_results = uc.execute_misc_engine(
-                #     input_file = validated_single_csv,
-                #     engine='filter_csv',
-                # )
-        
-            uc.params['prefix'] = sample
-            results_one_engine = uc.execute_misc_engine(
-                input_file = results,
-                engine='merge_csvs',
-                # merge_duplicates=True,
+            spec_file = sample
+            dirname = os.path.join(folder)
+            offset = offsets[spec_file]
+            spec_file_path = os.path.join(dirname, spec_file)
+            if offset == 'skip':
+                continue
+            uc.params['machine_offset_in_ppm'] = offset
+            mgf_file = uc.convert(
+                input_file=spec_file_path,
+                engine='mzml2mgf_2_0_0',
             )
-            uc.params['prefix'] = ''
 
-            validated_csv = uc.validate(
-                input_file  = results_one_engine,
+            uc.params['modifications'] = [
+                'C,fix,any,Carbamidomethyl',
+                'M,opt,any,Oxidation',
+                '*,opt,Prot-N-term,Acetyl',
+            ]
+            search_result = uc.search_mgf(
+                input_file = mgf_file,
+                engine = search_engine,
+            )
+
+            converted_result = uc.convert(
+                input_file=search_result,
+                guess_engine = True,
+            )
+            
+            mapped_results = uc.execute_misc_engine(
+                input_file=converted_result,
+                engine='upeptide_mapper',
+            )
+
+            unified_search_results = uc.execute_misc_engine(
+                input_file = mapped_results,
+                engine='unify_csv'
+            )
+
+            validated_single_csv = uc.validate(
+                input_file  = unified_search_results,
                 engine      = validation_engine,
             )
+            validated_result_files.append(validated_single_csv)
+            # 
+            # uc.params['csv_filter_rules'] = [
+            #     # ['Is decoy', 'equals', 'false'],
+            #     ['combined PEP','lte', 0.01],
+            #     ['Conflicting uparam', 'contains_not', 'enzyme'],
+            # ]
             # filtered_combined_results = uc.execute_misc_engine(
-            #         input_file = validated_csv,
-            #         engine='filter_csv',
-            #     )
-
-            validated_result_files.append(validated_csv)
+            #     input_file = validated_single_csv,
+            #     engine='filter_csv',
+            # )
 
         combined_results = uc.combine_search_results(
             input_files=validated_result_files,

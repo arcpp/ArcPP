@@ -2,16 +2,16 @@ Raw file name,Strain,Cell fraction,Replicate,Protease
 StS_FASP-RR01_05052017.raw,RR01,supernatant CsCl fraction,replicate 1,Trypsin
 StS_FASP-RR02_05052017.raw,RR02,supernatant CsCl fraction,replicate 1,Trypsin
 StS_FASP-RR03_05052017.raw,RR03,supernatant CsCl fraction,replicate 1,Trypsin
-StS_FASP-WT_05052017.raw,H53,supernatant CsCl fraction,replicate 1,Trypsin
-StS_Hvo_1143_Try_SN_Big12_20160929.raw,AF103,supernatant,replicate 1,Trypsin
-StS_Hvo_ArtA_Try_SN_Big12_20160929.raw,FH54,supernatant,replicate 1,Trypsin
+StS_FASP-WT_05052017.raw,JS27,supernatant CsCl fraction,replicate 1,Trypsin
+StS_Hvo_1143_Try_SN_Big12_20160929.raw,FH54,supernatant,replicate 1,Trypsin
+StS_Hvo_ArtA_Try_SN_Big12_20160929.raw,AF103,supernatant,replicate 1,Trypsin
 StS_Hvo_wt_Try_SN_Big12_20160929.raw,H53,supernatant,replicate 1,Trypsin
-StS_Hvo_1143_GluC_SN_Big12_20160929.raw,AF103,supernatant,replicate 1,GluC
-StS_Hvo_ArtA_GluC_SN_Big12_20160929.raw,FH54,supernatant,replicate 1,GluC
+StS_Hvo_1143_GluC_SN_Big12_20160929.raw,FH54,supernatant,replicate 1,GluC
+StS_Hvo_ArtA_GluC_SN_Big12_20160929.raw,AF103,supernatant,replicate 1,GluC
 StS_Hvo_wt_GluC_SN_Big12_20160929.raw,H53,supernatant,replicate 1,GluC
-StS_artA-GluC-membrane_22082017.raw,FH54,membrane,replicate 2,GluC
-StS_artA-GluC-SN_22082017.raw,FH54,supernatant,replicate 2,GluC
-StS_pssA-GluC-membrane_22082017.raw,AF103,membrane,replicate 2,GluC
-StS_pssA-GluC-SN_22082017.raw,AF103,supernatant,replicate 2,GluC
+StS_artA-GluC-membrane_22082017.raw,AF103,membrane,replicate 2,GluC
+StS_artA-GluC-SN_22082017.raw,AF103,supernatant,replicate 2,GluC
+StS_pssA-GluC-membrane_22082017.raw,FH54,membrane,replicate 2,GluC
+StS_pssA-GluC-SN_22082017.raw,FH54,supernatant,replicate 2,GluC
 StS_WT-GluC-membrane_22082017.raw,H53,membrane,replicate 2,GluC
 StS_WT-GluC-SN_22082017.raw,H53,supernatant,replicate 2,GluC
