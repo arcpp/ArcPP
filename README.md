@@ -14,7 +14,7 @@ Benefiting from the established bioinformatic infrastructure, we will follow up 
 
 ## Citation
 
-Coming soon.
+Schulze, S., Adams, Z., Cerletti, M. et al. The Archaeal Proteome Project advances knowledge about archaeal cell biology through comprehensive proteomics. Nat Commun 11, 3145 (2020). https://doi.org/10.1038/s41467-020-16784-7
 
 ## Download
 
@@ -27,6 +27,8 @@ or via git clone::
     git clone https://github.com/ArcPP/ArcPP.git
 
 Further result files can found here: https://doi.org/10.5281/zenodo.3825856.
+
+An interactive, searchable representation of protein and peptide identifications can be found at: https://archaealproteomeproject.org 
 
 ## How to use
 
