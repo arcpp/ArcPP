@@ -4166,23 +4166,23 @@ def plot_spec_number(results_dict, color_by=None, output_filename='barplot_test.
 
 
 def plot_barplot(
-        datadict_list=[],
-        output_filename='test.png',
-        layout=None,
-        color_dict=None,
-        orientation='v',
-    ):
-        '''
-        Plots a barplot using Plotly.
-        Given is a list of dictionaries with
-        {
-            'x' = [x_value_1, ...]
-            'y' = [y_value_1, ...]
-            'text' = [text_1, ...]
-            'name' = 'name of the trace'
-        }
-        Each dictionary in the list is printed as a trace in the barplot.
-        '''
+    datadict_list=[],
+    output_filename='test.png',
+    layout=None,
+    color_dict=None,
+    orientation='v',
+):
+    '''
+    Plots a barplot using Plotly.
+    Given is a list of dictionaries with
+    {
+        'x' = [x_value_1, ...]
+        'y' = [y_value_1, ...]
+        'text' = [text_1, ...]
+        'name' = 'name of the trace'
+    }
+    Each dictionary in the list is printed as a trace in the barplot.
+    '''
 
     trace_list = []
     for datadict in datadict_list:

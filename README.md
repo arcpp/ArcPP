@@ -45,6 +45,17 @@ Furthermore, docstrings in the scripts explain the basic functions and steps in 
 If you encounter any problems you can open up issues at GitHub, or contact us directly by email.
 For any contributions, fork us at https://github.com/arcPP/ArcPP and open up pull requests.
 
+## Changelog
+
+###Version 1.2.0 (03-2021)
+* Integration of PXD021827
+* Integration of PXD021874
+* Including glycoproteomic analysis scripts
+* Including general_example_workflow.py as a generalized example analysis script
+
+###Version 1.0.0 (05-2020)
+* Initial ArcPP release
+
 ## Copyrights
 
 Copyright 2019-today by authors and contributors in alphabetical order

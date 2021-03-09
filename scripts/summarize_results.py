@@ -121,7 +121,7 @@ datasets = {
         'folders': ['gluc', 'try'],
         'result_file': 'StS_____pmap_unified_percolator_3_4_0_validated_combine_pep_1_0_0_accepted_merged_sanitized.csv_StS_____pmap_unified_percolator_3_4_0_validated_combine_pep_1_0_0_accepted_merged_sanitized_merged.csv',#[
         'original_file': os.path.join('original_results', 'PXD011050_original_results.csv'),
-        '3engines_file': None 
+        '3engines_file': None,
         'combined_file': None,
     },
     'PXD011056': {
@@ -383,7 +383,7 @@ def main(dirpath, skip_old=False, num_specs=1):
                     if 'HVO' not in prot_id:
                         contaminants = True
                     if contaminants is False and is_decoy == 'false':
-                        results_dict[PRIDE_ID]['proteins']['all'].add(seq)
+                        results_dict[PRIDE_ID]['proteins']['all'].add(line_dict['Protein ID'])
                         results_dict[PRIDE_ID]['peptides']['all'].add(seq)
                         results_dict[PRIDE_ID]['spectra']['all'].add(spec_title)
 

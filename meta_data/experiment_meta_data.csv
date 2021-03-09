@@ -11,3 +11,5 @@ PXD011056,H119,whole cells,Hv-YPC; Hv-YPC (high salt); Hv-YPC (low salt),,30; 45
 PXD011218,H26; MIG1,membrane; cytoplasm; supernatant,MGM,+Ura (50 ug/ml); +Trp (50 ug/ml),42,exponential; stationary (42oC),Sonication,None,Iodoacetamide,None,In-gel,Trypsin,only for membrane samples: SDS-PAGE (4 fractions)
 PXD013046,H26; HVLON3; HVABI,membrane; cytoplasm,Hv-Min,+Ura (50 ug/ml); +Trp (50 ug/ml),42,exponential; stationary (42oC),Sonication,None,None,None,In-gel,Trypsin,None
 PXD014974,H26,whole cells,Hv-YPC,,42,exponential (42oC),150mM NaCl; 100mM EDTA; 50 mM Tris pH 8.5; 1mM MgCl2; 1%SDS for 13 min at 95oC,None,Iodoacetamide,Acetone precipitation; FASP,FASP,Trypsin,None
+PXD021827,,whole cells,,,42,,,,Iodoacetamide,Acetone precipitation,,Trypsin,
+PXD021874,"H53; aglB::trp, agl15::trp",membrane; cytoplasm; supernatant,Hv-Cab,+Ura (50 ug/ml); +/-Trp (50 ug/ml),45,exponential; stationary (45oC),Freeze-thaw,None,Iodoacetamide,desalting (3kDa MWCO); S-Trap,S-TRAP,Trypsin; GluC,None
