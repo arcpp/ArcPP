@@ -3,18 +3,27 @@
 Modern proteomics approaches can explore whole proteomes within a single mass spectrometry (MS) run. However, the enormous amount of MS data generated often remains incompletely analyzed due to a lack of sophisticated bioinformatic tools and expertise needed from a diverse array of fields. In particular, in the field of microbiology, efforts to combine large-scale proteomic datasets have so far largely been missing. Thus, despite their relatively small genomes, the proteomes of most archaea remain incompletely characterized. This in turn undermines our ability to gain a greater understanding of archaeal cell biology. 
 
 Therefore, we have initiated the Archaeal Proteome Project (ArcPP), a community effort that works towards a comprehensive analysis of archaeal proteomes. Starting with the model archaeon Haloferax volcanii, using state-of-the-art bioinformatic tools, we have:
-* reanalyzed more than 23 Mio. spectra
+* reanalyzed 25 Mio. spectra
 * optimized the analysis using parameter sweeps, multiple search engines implemented in Ursgal, and the combination of resultsthrough the combined PEP approach
 * thoroughly controlled false discovery rates for high confidence protein identifications using the picked protein FDR approach and limiting FDR to 0.5%
-* identified more than 40k peptides, corresponding to 2930 proteins (>72% of the proteome) with a median sequence coverage of 51%.
+* identified more than 45k peptides, corresponding to 3036 proteins (>74% of the proteome) with a median sequence coverage of 54%.
+* analyzed N-terminal protein processing, including N-terminal acetylation and signal peptide cleavage
+* performed a detailed glycoproteomic analysis, identifying >230 glycopeptides corresponding to 45 glycoproteins
 
 Benefiting from the established bioinformatic infrastructure, we will follow up on this analysis focusing on H. volcanii proteogenomics as well as the characterization of various post-translational modifications. Furthermore, ArcPP will integrate quantitative results obtained from the individual datasets in order to identify common regulatory mechanisms. These studies on the H. volcanii proteome can serve as a blueprint for comprehensive proteomic analyses performed on a diverse range of archaea and bacteria.
 
 
-
 ## Citation
 
-Schulze, S., Adams, Z., Cerletti, M. et al. The Archaeal Proteome Project advances knowledge about archaeal cell biology through comprehensive proteomics. Nat Commun 11, 3145 (2020). https://doi.org/10.1038/s41467-020-16784-7
+***Initial publication:***
+Schulze, S.; Adams, Z.; Cerletti, M. et al. (2020). The Archaeal Proteome Project advances knowledge about archaeal cell biology through comprehensive proteomics. Nat Commun 11, 3145. https://doi.org/10.1038/s41467-020-16784-7
+
+**Glycoproteomic analysis using ArcPP:**
+Schulze, S.; Pfeiffer, F.; Garcia, B.A.; Pohlschroder, M. (2021). Comprehensive glycoproteomics shines new light on the complexity and extent of glycosylation in archaea. PLOS Biol.  https://doi.org/10.1371/journal.pbio.3001277
+
+**Step-by-step description of sample preparation and bioinformatic analysis:**
+Schulze, S.; Pohlschroder, M. (2021). Proteomic sample preparation and data analysis in line with the Archaeal Proteome. (coming soon)
+
 
 ## Download
 
@@ -30,6 +39,7 @@ Further result files can found here: https://doi.org/10.5281/zenodo.3825856.
 
 An interactive, searchable representation of protein and peptide identifications can be found at: https://archaealproteomeproject.org 
 
+
 ## How to use
 
 For looking at the meta data, database and result files, of course no specific software is required.
@@ -40,10 +50,26 @@ https://github.com/ursgal/ursgal
 
 Furthermore, docstrings in the scripts explain the basic functions and steps in the analysis pipeline.
 
+
 ## Questions and Participation
 
 If you encounter any problems you can open up issues at GitHub, or contact us directly by email.
 For any contributions, fork us at https://github.com/arcPP/ArcPP and open up pull requests.
+
+
+## Changelog
+
+### Version 1.2.0 (05-2021)
+* Integration of PXD021827 (meta data)
+* Integration of PXD021874 (meta data + results)
+* Including glycoproteomic analysis scripts
+* Including general_example_workflow.py as a generalized example analysis script
+
+### Version 1.1.0 (05-2020)
+* Including analysis of Natrialba magadii as part of PXD009116
+
+### Version 1.0.0 (05-2020)
+* Initial ArcPP release
 
 ## Copyrights
 
@@ -54,6 +80,7 @@ Copyright 2019-today by authors and contributors in alphabetical order
 * Rosana De Castro
 * Sébastien Ferreira-Cerca
 * Christian Fufezan
+* Benjamin A. Garcia
 * María Inés Giménez
 * Michael Hippler
 * Zivojin Jevtic

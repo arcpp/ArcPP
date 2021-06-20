@@ -1,5 +1,5 @@
 PRIDE ID,Analysis Software,Database,MS1 Accuracy,MS2 Accuracy,Peptide Length (min; max),Fixed Modifications,Potential Modifications,FDR or PEP Threshold,Semi-enzymatic,Missed cleavages
-PXD000202,Sequest,UniProtKB (release 2013_05) ,5 ppm,1.00 Da,,Carbamidomethyl (C) ,Oxidation (M); GG (K),Peptide Prophet probability > 0.95 (FDR 0.01 – 0.018),no,2
+PXD000202,Sequest,UniProtKB (release 2013_05) ,5 ppm,1.00 Da,,Carbamidomethyl (C) ,Oxidation (M); GG (K),Peptide Prophet probability > 0.95 (FDR 0.01 ï¿½ 0.018),no,2
 PXD006877,Proteome Discoverer 2.1 ,Uniprot UP000008243; NTRANS_0004; cRAP,10 ppm,0.02 Da,,Methylthio (C),Oxidation (M); Acetyl (Prot-N-term); GG (K); Label:13C(5) (P); Label:13C(6)15N(2) (K); 13C(6) (R ),FDR < 0.01,no,2
 PXD007061,"Proteome Discoverer 1.4, QuPe","Halolex database (Pfeiffer et al., 2008)",6 ppm,0.4 Da,6; 40,Carbamidomethyl (C) ,Oxidation (M); N-terminal glu?pyroglutamate,FDR < 0.01,no,2
 PXD009116,MaxQuant,"Halolex database (Pfeiffer et al., 2008)",6 ppm,0.4 Da,6; 40,Carbamidomethyl (C) ,"Oxidation (M); deamidation (NQ), N-terminal glu?pyroglutamate, Acetyl (Prot-N-term)",FDR < 0.01,no,2
@@ -10,4 +10,6 @@ PXD011050 ,Ursgal (X!Tandem; MSFragger; MS-GF+),Uniprot UP000008243; cRAP,5 ppm,
 PXD011056,Paragon v5.0.0.0 in ProteinPilot v5.0,HaloLex_v19-11-2015,thorough,thorough,thorough,Carbamidomethyl (C) ,thorough,FDR < 0.01,no,>2
 PXD011218,Proteome Discoverer 1.4,"Halolex database (Pfeiffer et al., 2008)",6 ppm,0.4 Da,6; 40,Carbamidomethyl (C) ,Oxidation (M); N-terminal glu?pyroglutamate,FDR < 0.01,no,2
 PXD013046,Proteome Discoverer 1.4,"Halolex database (Pfeiffer et al., 2008)",10 ppm,0.4 Da,6; 40,-,Oxidation (M); N-terminal glu?pyroglutamate,FDR < 0.01,no,2
-PXD014974,MaxQuant 1.6.1.0.,Uniprot UP000008243,,20 ppm,,Carbamidomethyl (C) ,Oxidation (M); deamidation (NQ),FDR < 0.01,no,2
+PXD014974,MaxQuant 1.6.1.0.,Uniprot UP000008243,20 ppm,0.5 Da,,Carbamidomethyl (C) ,Oxidation (M); deamidation (NQ),FDR < 0.01,no,2
+PXD021827,MaxQuant 1.6.1.0.,ArcPP database v190606 (https://zenodo.org/record/3565631),20 ppm,0.5 Da,,Carbamidomethyl (C) ,Oxidation (M); Acetyl (Prot-N-term),FDR < 0.01,no,2
+PXD021874,Ursgal (X!Tandem; MS-GF+; MSFragger),ArcPP database v190606 (https://zenodo.org/record/3565631),10 ppm,10 ppm,6; 40,Carbamidomethyl (C) ,Oxidation (M); Acetyl (Prot-N-term); N-glycosylation (N); Hex(2) (S); Hex(2) (T),PEP < 0.01,no,2; 3
