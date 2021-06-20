@@ -113,7 +113,11 @@ offsets = {
 
 
 def main(folder=None, enzyme=None, target_decoy_database=None):
-    """"""
+    """
+    Workflow for the glycoproteomic analysis of a dataset.
+    Usage:
+        python <script_name.py> <folder_with_mzML> <enzyme> <path_to_database>
+    """
     # define folder with mzML_files as sys.argv[1]
     mzML_files = []
     for mzml in glob.glob(os.path.join(folder, "*.mzML")):
@@ -155,9 +159,11 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
             "Charge",
             "Is decoy",
         ],
-        "max_missed_cleavages": 2,
+        "max_missed_cleavages": 3,
     }
 
+    # glycans are defined as variable modifications
+    # Hex and Hex(1)HexA(1) (=1427) are existing unimod modifications
     Hvo_Glyco = [
         "",
         "N,opt,any,Hex",
@@ -188,69 +194,48 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
                     spec_file_path = os.path.join(dirname, basename)
                     if offset == "skip":
                         continue
+                    uc.params["machine_offset_in_ppm"] = offset
+                    mgf_file = uc.convert(
+                        input_file=spec_file_path,
+                        engine="mzml2mgf_2_0_0",
+                    )
 
                     if n == 0:
-                        prefix = ""
+                        uc.params["modifications"] = [
+                            "C,fix,any,Carbamidomethyl",
+                            "M,opt,any,Oxidation",
+                            "*,opt,Prot-N-term,Acetyl",
+                        ]
                     else:
-                        prefix = "{0}_".format(
-                            mod.split(",")[3],
-                        )
-                    unified_search_results = os.path.join(
-                        folder,
-                        search_engine,
-                        "{0}{1}_{2}_pmap_unified.csv".format(
-                            prefix, spec_file.replace(".mzML", ""), search_engine
-                        ),
+                        uc.params["modifications"] = [
+                            "C,fix,any,Carbamidomethyl",
+                            "M,opt,any,Oxidation",
+                            "*,opt,Prot-N-term,Acetyl",
+                            "S,opt,any,Hex(2)",
+                            "T,opt,any,Hex(2)",
+                        ]
+                        uc.params["modifications"].append(mod)
+                        uc.params["prefix"] = mod.split(",")[3]
+
+                    search_result = uc.search_mgf(
+                        input_file=mgf_file,
+                        engine=search_engine,
                     )
-                    if os.path.exists(unified_search_results):
-                        pass
-                    else:
-                        uc.params["machine_offset_in_ppm"] = offset
-                        mgf_file = uc.convert(
-                            input_file=spec_file_path,
-                            engine="mzml2mgf_2_0_0",
-                        )
+                    uc.params["prefix"] = ""
 
-                        if n == 0:
-                            uc.params["modifications"] = [
-                                "C,fix,any,Carbamidomethyl",
-                                "M,opt,any,Oxidation",
-                                "*,fix,N-term,iTRAQ4plex",
-                                "K,opt,any,iTRAQ4plex",
-                                "Y,opt,any,iTRAQ4plex",
-                            ]
-                        else:
-                            uc.params["modifications"] = [
-                                "C,fix,any,Carbamidomethyl",
-                                "M,opt,any,Oxidation",
-                                "*,fix,N-term,iTRAQ4plex",
-                                "K,opt,any,iTRAQ4plex",
-                                "Y,opt,any,iTRAQ4plex",
-                                "S,opt,any,Hex(2)",
-                                "T,opt,any,Hex(2)",
-                            ]
-                            uc.params["modifications"].append(mod)
-                            uc.params["prefix"] = mod.split(",")[3]
+                    converted_result = uc.convert(
+                        input_file=search_result,
+                        guess_engine=True,
+                    )
 
-                        search_result = uc.search_mgf(
-                            input_file=mgf_file,
-                            engine=search_engine,
-                        )
-                        uc.params["prefix"] = ""
+                    mapped_results = uc.execute_misc_engine(
+                        input_file=converted_result,
+                        engine="upeptide_mapper",
+                    )
 
-                        converted_result = uc.convert(
-                            input_file=search_result,
-                            guess_engine=True,
-                        )
-
-                        mapped_results = uc.execute_misc_engine(
-                            input_file=converted_result,
-                            engine="upeptide_mapper",
-                        )
-
-                        unified_search_results = uc.execute_misc_engine(
-                            input_file=mapped_results, engine="unify_csv"
-                        )
+                    unified_search_results = uc.execute_misc_engine(
+                        input_file=mapped_results, engine="unify_csv"
+                    )
 
                     results_one_mod.append(unified_search_results)
 
@@ -262,13 +247,11 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
                 uc.params["prefix"] = ""
                 # engine_results_unvalidated.append(merged_1engine_1mod_1sample)
 
-                validated_files = []
-
                 validated_csv = uc.validate(
                     input_file=merged_1engine_1mod_1sample,
                     engine=validation_engine,
                 )
-                engine_results_validated.append(validated_files[0])
+                engine_results_validated.append(validated_csv)
 
             merged_1engine_all_mods_validated = uc.execute_misc_engine(
                 input_file=engine_results_validated,

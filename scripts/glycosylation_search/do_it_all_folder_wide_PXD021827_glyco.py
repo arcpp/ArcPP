@@ -5,43 +5,66 @@ import sys
 import glob
 import os
 
+
 offsets = {
-    "POL11409X002__A_rep1": {
-        "POL11409X002__A_1_92-59212.mzML": 0,
+    "WT_Rep1": {
+        "OF_20190919_OEF_01.mzML": -0.3,
     },
-    "POL11409X002__A_rep2": {
-        "POL11409X003__A_2_92-59213.mzML": 0,
+    "ksgA_Rep1": {
+        "OF_20190919_OEF_03.mzML": -0.2,
+    },
+    "ksgA-reint_Rep1": {
+        "OF_20190919_OEF_05.mzML": -0.2,
+    },
+    "WT_Rep2": {
+        "OF_20190920_OEF_03.mzML": -0.1,
+    },
+    "WT_Rep3": {
+        "OF_20190920_OEF_04.mzML": -0.1,
+    },
+    "ksgA_Rep2": {
+        "OF_20190920_OEF_05.mzML": -0.2,
+    },
+    "ksgA_Rep3": {
+        "OF_20190921_OEF_01.mzML": -0.1,
+    },
+    "ksgA-reint_Rep2": {
+        "OF_20190921_OEF_02.mzML": 0.1,
+    },
+    "ksgA-reint_Rep3": {
+        "OF_20190921_OEF_03.mzML": -0.1,
+    },
+    "ksgA-reintE48A_Rep1": {
+        "OF_20190921_OEF_04.mzML": 0.0,
+    },
+    "ksgA-reintE48A_Rep3": {
+        "OF_20190923_OEF_01.mzML": 0.0,
+    },
+    "ksgA-reintE48A_Rep2": {
+        "OF_20190923_OEF_03.mzML": -0.1,
     },
 }
 
 
 def main(folder=None, enzyme=None, target_decoy_database=None):
-    """
-    Workflow for the analysis a dataset with one run per sample.
-    Usage:
-        python <script_name.py> <folder_with_mzML> <enzyme> <path_to_database>
-    """
-    # define folder with mzML_files as sys.argv[1]
-    mzML_files = []
+    """"""
+    # define folder with raw_files as sys.argv[1]
+    mzml_files = []
     for mzml in glob.glob(os.path.join(folder, "*.mzML")):
-        mzML_files.append(os.path.basename(mzml))
+        mzml_files.append(os.path.basename(mzml))
     offset_files = []
     for sample in offsets.keys():
         for spec_file in offsets[sample].keys():
             offset_files.append(spec_file)
-    for mzml in mzML_files:
+    for mzml in mzml_files:
         if mzml not in offset_files:
-            print("mzML file in folder but NOT in offset dict: {}".format(mzml))
-            exit()
-    for sample in offset_files:
-        if sample not in mzML_files:
-            print("Sample in offset dict but mzML file NOT in folder: {}".format(sample))
+            print("mzml file in folder but NOT in offset dict: {}".format(mzml))
             exit()
 
     mass_spectrometer = "QExactive+"
     search_engines = [
         "xtandem_vengeance",
-        "msfragger_2_3",
+        "msfragger_3_0",
         "msgfplus_v2019_07_03",
     ]
 
@@ -50,12 +73,12 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
     params = {
         "database": target_decoy_database,
         "enzyme": enzyme,
-        "precursor_mass_tolerance_minus": 10,
-        "precursor_mass_tolerance_plus": 10,
-        "frag_mass_tolerance": 10,
-        "frag_mass_tolerance_unit": "ppm",
+        "precursor_mass_tolerance_minus": 8,
+        "precursor_mass_tolerance_plus": 8,
+        "frag_mass_tolerance": 0.4,
+        "frag_mass_tolerance_unit": "da",
         "rounded_mass_decimals": 2,
-        "-xmx": "32g",
+        "-xmx": "24g",
         "peptide_mapper_class_version": "UPeptideMapper_v4",
         "use_pyqms_for_mz_calculation": True,
         "percolator_post_processing": "mix-max",
@@ -67,10 +90,9 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
             "Is decoy",
         ],
         "max_missed_cleavages": 2,
+        "calibrate_mass": True,
     }
 
-    # glycans are defined as variable modifications
-    # Hex and Hex(1)HexA(1) (=1427) are existing unimod modifications
     Hvo_Glyco = [
         "",
         "N,opt,any,Hex",
@@ -88,7 +110,8 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
     uc = ursgal.UController(profile=mass_spectrometer, params=params)
 
     combined_pep_result_files = []
-    for n, sample in enumerate(sorted(offsets.keys(), reverse=True)):
+    for n, sample in enumerate(sorted(offsets.keys(), reverse=True)[:]):
+        print(n)
         validated_result_files = []
         for search_engine in search_engines:
             engine_results_validated = []
@@ -101,52 +124,74 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
                     spec_file_path = os.path.join(dirname, basename)
                     if offset == "skip":
                         continue
-                    uc.params["machine_offset_in_ppm"] = offset
-                    mgf_file = uc.convert(
-                        input_file=spec_file_path,
-                        engine="mzml2mgf_2_0_0",
-                    )
 
                     if n == 0:
-                        uc.params["modifications"] = [
-                            "C,fix,any,Carbamidomethyl",
-                            "M,opt,any,Oxidation",
-                            "*,opt,Prot-N-term,Acetyl",
-                        ]
+                        prefix = ""
                     else:
-                        uc.params["modifications"] = [
-                            "C,fix,any,Carbamidomethyl",
-                            "M,opt,any,Oxidation",
-                            "*,opt,Prot-N-term,Acetyl",
-                            "S,opt,any,Hex(2)",
-                            "T,opt,any,Hex(2)",
-                        ]
-                        uc.params["modifications"].append(mod)
-                        uc.params["prefix"] = mod.split(",")[3]
+                        prefix = "{0}_".format(
+                            mod.split(",")[3],
+                        )
 
-                    search_result = uc.search_mgf(
-                        input_file=mgf_file,
-                        engine=search_engine,
+                    unified_search_results = os.path.join(
+                        folder,
+                        search_engine,
+                        "{0}{1}_{2}_pmap_unified.csv".format(
+                            prefix, spec_file.replace(".mzML", ""), search_engine
+                        ),
                     )
-                    uc.params["prefix"] = ""
+                    if os.path.exists(unified_search_results):
+                        pass
+                    else:
+                        uc.params["machine_offset_in_ppm"] = offset
+                        # mzml_file = uc.convert(
+                        #     input_file=spec_file_path,
+                        #     engine="thermo_raw_file_parser_1_1_2",
+                        # )
+                        mgf_file = uc.convert(
+                            input_file=spec_file_path,
+                            engine="mzml2mgf_2_0_0",
+                        )
 
-                    converted_result = uc.convert(
-                        input_file=search_result,
-                        guess_engine=True,
-                    )
+                        if n == 0:
+                            uc.params["modifications"] = [
+                                "C,fix,any,Carbamidomethyl",
+                                "M,opt,any,Oxidation",
+                                "*,opt,Prot-N-term,Acetyl",
+                            ]
+                        else:
+                            uc.params["modifications"] = [
+                                "C,fix,any,Carbamidomethyl",
+                                "M,opt,any,Oxidation",
+                                "*,opt,Prot-N-term,Acetyl",
+                                "S,opt,any,Hex(2)",
+                                "T,opt,any,Hex(2)",
+                            ]
+                            uc.params["modifications"].append(mod)
+                            uc.params["prefix"] = mod.split(",")[3]
 
-                    mapped_results = uc.execute_misc_engine(
-                        input_file=converted_result,
-                        engine="upeptide_mapper",
-                    )
+                        search_result = uc.search_mgf(
+                            input_file=mgf_file,
+                            engine=search_engine,
+                        )
+                        uc.params["prefix"] = ""
 
-                    unified_search_results = uc.execute_misc_engine(
-                        input_file=mapped_results, engine="unify_csv"
-                    )
+                        converted_result = uc.convert(
+                            input_file=search_result,
+                            guess_engine=True,
+                        )
+
+                        mapped_results = uc.execute_misc_engine(
+                            input_file=converted_result,
+                            engine="upeptide_mapper",
+                        )
+
+                        unified_search_results = uc.execute_misc_engine(
+                            input_file=mapped_results, engine="unify_csv"
+                        )
 
                     results_one_mod.append(unified_search_results)
 
-                uc.params["prefix"] = sample
+                continue
                 merged_1engine_1mod_1sample = uc.execute_misc_engine(
                     input_file=results_one_mod,
                     engine="merge_csvs",
@@ -161,6 +206,7 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
                 )
                 engine_results_validated.append(validated_csv)
 
+            continue
             merged_1engine_all_mods_validated = uc.execute_misc_engine(
                 input_file=engine_results_validated,
                 engine="merge_csvs",
@@ -168,6 +214,7 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
             )
             validated_result_files.append(merged_1engine_all_mods_validated)
 
+        continue
         uc.params["prefix"] = sample
         combined_pep_validated = uc.combine_search_results(
             input_files=validated_result_files,
@@ -175,7 +222,7 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
         )
         uc.params["prefix"] = ""
         uc.params["csv_filter_rules"] = [
-            # ["Is decoy", "equals", "false"],
+            ["Is decoy", "equals", "false"],
             ["combined PEP", "lte", 0.01],
             ["Conflicting uparam", "contains_not", "enzyme"],
         ]
@@ -185,25 +232,7 @@ def main(folder=None, enzyme=None, target_decoy_database=None):
         )
         combined_pep_result_files.append(filtered_validated_results)
 
-        # uc.params['peptide_forest_initial_engine'] = 'msfragger_2_3'
-        # uc.params['peptide_forest_file_params'] = {}
-        # uc.params['prefix'] = 'peptide_forest_' + sample
-        # peptide_forest_validated =  uc.validate(
-        #     input_file=unvalidated_result_files,
-        #     engine='peptide_forest',
-        # )
-        # uc.params['csv_filter_rules'] = [
-        #     ['Is decoy', 'equals', 'false'],
-        #     ['q-value_RF-reg','lte', 0.01],
-        #     ['Conflicting uparam', 'contains_not', 'enzyme'],
-        # ]
-        # filtered_peptide_forest = uc.execute_misc_engine(
-        #     input_file = peptide_forest_validated,
-        #     engine='filter_csv',
-        # )
-        # peptide_forest_result_files.append(filtered_peptide_forest)
-
-    uc.params["prefix"] = ""
+    exit()  # uc.params["prefix"] = ""
     results_all_combined_pep = uc.execute_misc_engine(
         input_file=combined_pep_result_files,
         engine="merge_csvs",
