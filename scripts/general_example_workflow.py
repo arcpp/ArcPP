@@ -21,9 +21,9 @@ samples = {
 
 def main(folder=None, target_decoy_database=None):
     """
-    Workflow for the analysis of a dataset with muliple mzML files per sample.
+    Workflow for the analysis of a dataset with muliple MS raw files per sample.
     Usage:
-        python do_it_all_folder_wide_general_workflow.py <folder_with_mzML> <path_to_database>
+        python do_it_all_folder_wide_general_workflow.py <folder_with_raw_files> <path_to_database>
     """
     # define folder with raw_files as sys.argv[1]
     raw_files = []
