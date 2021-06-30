@@ -3,10 +3,10 @@
 Modern proteomics approaches can explore whole proteomes within a single mass spectrometry (MS) run. However, the enormous amount of MS data generated often remains incompletely analyzed due to a lack of sophisticated bioinformatic tools and expertise needed from a diverse array of fields. In particular, in the field of microbiology, efforts to combine large-scale proteomic datasets have so far largely been missing. Thus, despite their relatively small genomes, the proteomes of most archaea remain incompletely characterized. This in turn undermines our ability to gain a greater understanding of archaeal cell biology. 
 
 Therefore, we have initiated the Archaeal Proteome Project (ArcPP), a community effort that works towards a comprehensive analysis of archaeal proteomes. Starting with the model archaeon Haloferax volcanii, using state-of-the-art bioinformatic tools, we have:
-* reanalyzed 25 Mio. spectra
+* reanalyzed 26 Mio. spectra
 * optimized the analysis using parameter sweeps, multiple search engines implemented in Ursgal, and the combination of resultsthrough the combined PEP approach
 * thoroughly controlled false discovery rates for high confidence protein identifications using the picked protein FDR approach and limiting FDR to 0.5%
-* identified more than 45k peptides, corresponding to 3036 proteins (>74% of the proteome) with a median sequence coverage of 54%.
+* identified more than 45k peptides, corresponding to 3069 proteins (>75% of the proteome) with a median sequence coverage of 55%.
 * analyzed N-terminal protein processing, including N-terminal acetylation and signal peptide cleavage
 * performed a detailed glycoproteomic analysis, identifying >230 glycopeptides corresponding to 45 glycoproteins
 
@@ -58,6 +58,9 @@ For any contributions, fork us at https://github.com/arcPP/ArcPP and open up pul
 
 
 ## Changelog
+
+### Version 1.3.0 (06-2021)
+* Full integration of PXD021827
 
 ### Version 1.2.0 (05-2021)
 * Integration of PXD021827 (meta data)
