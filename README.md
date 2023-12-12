@@ -22,7 +22,7 @@ Schulze, S.; Adams, Z.; Cerletti, M. et al. (2020). The Archaeal Proteome Projec
 Schulze, S.; Pfeiffer, F.; Garcia, B.A.; Pohlschroder, M. (2021). Comprehensive glycoproteomics shines new light on the complexity and extent of glycosylation in archaea. PLOS Biol.  https://doi.org/10.1371/journal.pbio.3001277
 
 **Step-by-step description of sample preparation and bioinformatic analysis:**
-Schulze, S.; Pohlschroder, M. (2021). Proteomic sample preparation and data analysis in line with the Archaeal Proteome. (coming soon)
+Schulze, S.; Pohlschroder, M. (2022). Proteomic sample preparation and data analysis in line with the Archaeal Proteome. Meth Mol Biol. https://doi.org/10.1007/978-1-0716-2445-6_18
 
 
 ## Download
@@ -35,7 +35,7 @@ or via git clone::
 
     git clone https://github.com/ArcPP/ArcPP.git
 
-Further result files can found here: https://doi.org/10.5281/zenodo.3825856.
+Result files can found here: https://doi.org/10.5281/zenodo.3825856.
 
 An interactive, searchable representation of protein and peptide identifications can be found at: https://archaealproteomeproject.org 
 
@@ -44,7 +44,7 @@ An interactive, searchable representation of protein and peptide identifications
 
 For looking at the meta data, database and result files, of course no specific software is required.
 
-However, if you want to execute the analysis scripts, Python 3.5 or higher is required as well as the
+However, if you want to execute the analysis scripts, Python 3.6 or higher is required as well as the
 Python package Ursgal. Further information on the installation and usage of Ursgal can be found here:
 https://github.com/ursgal/ursgal
 
@@ -58,6 +58,9 @@ For any contributions, fork us at https://github.com/arcPP/ArcPP and open up pul
 
 
 ## Changelog
+
+### Version 1.4.0 (12-2023)
+* Full integration of PXD040781
 
 ### Version 1.3.0 (06-2021)
 * Full integration of PXD021827
@@ -102,9 +105,10 @@ Copyright 2019-today by authors and contributors in alphabetical order
 ## Contact
 
 Dr. Stefan Schulze
-Department of Biology, University of Pennsylvania
-201 Leidy Laboratories, 3740 Hamilton Walk, Philadelphia, PA 19104
-email: sschulze@sas.upenn.edu
+Gosnell School of Life Sciences
+Rochester Institute of Technology 
+Brown Hall 86-1121, Rochester, NY 14623
+email: stefan.schulze@rit.edu
 
 ## Disclaimer
 
