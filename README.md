@@ -61,6 +61,7 @@ For any contributions, fork us at https://github.com/arcPP/ArcPP and open up pul
 
 ### Version 1.4.0 (12-2023)
 * Full integration of PXD040781
+* Restructuring of scripts folder and removal of results folder (results are stored at https://doi.org/10.5281/zenodo.3825856)
 
 ### Version 1.3.0 (06-2021)
 * Full integration of PXD021827
