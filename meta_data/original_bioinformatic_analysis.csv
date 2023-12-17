@@ -13,3 +13,4 @@ PXD013046,Proteome Discoverer 1.4,"Halolex database (Pfeiffer et al., 2008)",10 
 PXD014974,MaxQuant 1.6.1.0.,Uniprot UP000008243,20 ppm,0.5 Da,,Carbamidomethyl (C) ,Oxidation (M); deamidation (NQ),FDR < 0.01,no,2
 PXD021827,MaxQuant 1.6.1.0.,ArcPP database v190606 (https://zenodo.org/record/3565631),20 ppm,0.5 Da,,Carbamidomethyl (C) ,Oxidation (M); Acetyl (Prot-N-term),FDR < 0.01,no,2
 PXD021874,Ursgal (X!Tandem; MS-GF+; MSFragger),ArcPP database v190606 (https://zenodo.org/record/3565631),10 ppm,10 ppm,6; 40,Carbamidomethyl (C) ,Oxidation (M); Acetyl (Prot-N-term); N-glycosylation (N); Hex(2) (S); Hex(2) (T),PEP < 0.01,no,2; 3
+PXD040781,Ursgal (X!Tandem; MS-GF+; MSFragger),ArcPP database v190606 (https://zenodo.org/record/3565631),10 ppm,15 ppm,6; 40,Carbamidomethyl (C) ,Oxidation (M); Acetyl (Prot-N-term); N-glycosylation (N),PEP < 0.01,no,2

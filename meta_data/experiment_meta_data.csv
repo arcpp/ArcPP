@@ -4,7 +4,7 @@ PXD006877,LM08 (H26 DargH DlysA),whole cells,Hv-Min glycerol (+/- 2.5 mM NaOCl),
 PXD007061,H26; HVLON3,membrane; cytoplasm,Hv-Min glucose,+Ura (50 ug/ml); +/-Trp (50 ug/ml),42,exponential; stationary (42oC),Sonication,15N; 13C,Iodoacetamide,None,In-gel,Trypsin,None
 PXD009116,H26; Natrialba magadii,membrane; cytoplasm,MGM (Tindall for N. magadii),,42,exponential; stationary (42oC),Sonication,None,Iodoacetamide,None,In-gel,Trypsin,None
 PXD010824,FH26; FH59,membrane; cytoplasm,Hv-CA,+Trp (50 ug/ml),45,exponential,Osmotic lysis; Freeze-thaw,None,Iodoacetamide,FASP,FASP,Trypsin,None
-PXD011012,MT13,whole cells,Hv-CA,+Ura (50 ug/ml); +Trp (50 ug/ml),45,"exponential, stationary, biofilm (45oC)",Osmotic lysis; SDS (2%),iTRAQ,Iodoacetamide,FASP,FASP,Trypsin; GluC,None
+PXD011012,MT13,whole cells,Hv-CA,+Ura (50 ug/ml); +Trp (50 ug/ml),45,exponential; stationary; biofilm (45oC),Osmotic lysis; SDS (2%),iTRAQ,Iodoacetamide,FASP,FASP,Trypsin; GluC,None
 PXD011015,MT13; aglB::trp,supernatant,Hv-CA,+Ura (50 ug/ml); +/-Trp (50 ug/ml),45,exponential (45oC),None,None,Iodoacetamide,FASP,FASP,GluC,CsCl fractionation
 PXD011050,H53; AF103; FH54; RR01; RR02; RR03; JS27,membrane; supernatant,Hv-CA,+/-Ura (50 ug/ml); +/-Trp (50 ug/ml),45,exponential (45oC),Osmotic lysis; Freeze-thaw,None,Iodoacetamide,FASP,FASP,Trypsin; GluC,CsCl fractionation (for SN)
 PXD011056,H119,whole cells,Hv-YPC; Hv-YPC (high salt); Hv-YPC (low salt),,30; 45; 53,exponential (45oC; 30oC; 53oC),Sonication; sodium taurodeoxycholate (0.006%),None,Iodoacetamide,Acetone precipitation,In-solution,Trypsin,High-pH/reversed phase
@@ -12,4 +12,5 @@ PXD011218,H26; MIG1,membrane; cytoplasm; supernatant,MGM,+Ura (50 ug/ml); +Trp (
 PXD013046,H26; HVLON3; HVABI,membrane; cytoplasm,Hv-Min,+Ura (50 ug/ml); +Trp (50 ug/ml),42,exponential; stationary (42oC),Sonication,None,None,None,In-gel,Trypsin,None
 PXD014974,H26,whole cells,Hv-YPC,,42,exponential (42oC),150mM NaCl; 100mM EDTA; 50 mM Tris pH 8.5; 1mM MgCl2; 1%SDS for 13 min at 95oC,None,Iodoacetamide,Acetone precipitation; FASP,FASP,Trypsin,None
 PXD021827,H26; DksgA; DksgA::KsgA; DksgA::ksgA E84A,whole cells,Hv-YPC,,42,exponential (42oC),150mM NaCl; 100mM EDTA; 50 mM Tris pH 8.5; 1mM MgCl2; 1%SDS for 13 min at 95oC,None,Iodoacetamide,Methanol/chloroform extraction; Acetone precipitation,In-soluton (in presence of 0.04% ProteaseMax),Trypsin,None
-PXD021874,"H53; aglB::trp, agl15::trp",membrane; cytoplasm; supernatant,Hv-Cab,+Ura (50 ug/ml); +/-Trp (50 ug/ml),45,exponential; stationary (45oC),Freeze-thaw,None,Iodoacetamide,desalting (3kDa MWCO); S-Trap,S-TRAP,Trypsin; GluC,None
+PXD021874,H53; aglB::trp; agl15::trp,membrane; cytoplasm; supernatant,Hv-Cab,+Ura (50 ug/ml); +/-Trp (50 ug/ml),45,exponential; stationary (45oC),Freeze-thaw,None,Iodoacetamide,desalting (3kDa MWCO); S-Trap,S-TRAP,Trypsin; GluC,None
+PXD040781,H53; H98; DcetZ1; JK3; DrdfA; DddfA,whole cells,Hv-Cab,+Ura (50 ug/ml); +/-Trp (50 ug/ml); +/-Hpx (40 ug/ml); +/-Thy (40 ug/ml),45,early-log (OD0.05); late-log (OD1.75),Freeze-thaw; SDS (2%),None,Iodoacetamide,desalting (3kDa MWCO); S-Trap,S-TRAP,Trypsin,None
